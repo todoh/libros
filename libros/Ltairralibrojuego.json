@@ -1,0 +1,3261 @@
+{
+  "etiquetas": "librojuego, ciencia ficción, distopía, dieselpunk, supervivencia, postapocalíptico, entropía, biomecánica, narrativa interactiva, transhumanismo, tecnología obsoleta",
+  "titulo": "Tairra: Crónicas de un Mundo Roto - El Librojuego",
+  "autores": "Manuel Rodsua, Cristina Lobo & IA",
+  "esLibrojuego": true,
+  "secciones": {
+    "inicio": {
+      "titulo": "El Estrato Inferior de Orod",
+      "texto": [
+        "El Ciclo de Rotación 84.092 se inaugura con un chirrido metálico ensordecedor que recorre la columna vertebral de la estructura, un lamento de metal torturado bajo la fatiga de siglos. Las juntas de expansión, vencidas por el colapso estructural, se comprimen drásticamente, provocando que la presión atmosférica del sector aumente en 0.4 kilopascales, un cambio sutil para los sensores, pero asfixiante para el tejido orgánico.",
+        "Marbo permanece inmóvil, con la mirada fija en el astrolabio de latón, cuyas esferas internas giran con una mecánica hipnótica mientras calcula la inminente entropía que acecha al sector; su rostro, surcado por cicatrices industriales, refleja la resignación de quien comprende la inevitable obsolescencia de su entorno. Entretanto, una marea lenta y viscosa de lodo aceitoso, cargada con residuos ferrosos y desechos orgánicos, comienza a purgarse desde las rejillas de ventilación, anegando el suelo con una negrura impenetrable."
+      ],
+      "opciones": [
+        {
+          "texto": "Ayudar a Marbo a recalibrar los pernos de anclaje",
+          "destino": "nodo_1"
+        },
+        {
+          "texto": "Buscar refugio inmediato con la sacerdotisa Lein",
+          "destino": "nodo_2"
+        }
+      ]
+    },
+    "nodo_1": {
+      "titulo": "El Taller de Forja",
+      "texto": [
+        "El calor residual emanado del núcleo del sector se ha vuelto insoportable, convirtiendo el aire en un aliento denso y seco, similar al de un alto horno en funcionamiento perpetuo que despoja de humedad a cualquier organismo vivo. En los rincones del taller, los bueyes de carga, criaturas biomecánicas de músculo sintético, se muestran inquietos, mordiendo frenéticamente sus amarres de titanio con un ruido rítmico que acentúa la tensión eléctrica del aire."
+      ],
+      "opciones": [
+        {
+          "texto": "Ajustar las válvulas de presión",
+          "destino": "nodo_3"
+        },
+        {
+          "texto": "Escapar hacia los canales de drenaje",
+          "destino": "nodo_4"
+        }
+      ]
+    },
+    "nodo_2": {
+      "titulo": "El Triaje del Fango",
+      "texto": [
+        "Lein acciona un mecanismo ancestral y una vela de grasa animal se enciende, proyectando sombras largas y danzantes contra los mamparos remachados. El habitáculo se satura de un hedor acre y penetrante, una amalgama de carne chamuscada y lubricante sintético recalentado que se adhiere a las paredes como un sudor frío, recordándole a los presentes la fragilidad de su existencia en esta necrópolis de metal."
+      ],
+      "opciones": [
+        {
+          "texto": "Ayudar a estabilizar a los soldados heridos",
+          "destino": "nodo_5"
+        },
+        {
+          "texto": "Buscar suministros médicos en el almacén norte",
+          "destino": "nodo_6"
+        }
+      ]
+    },
+    "nodo_3": {
+      "titulo": "Falla de Presión Corregida",
+      "texto": [
+        "La maniobra ejecutada sobre las válvulas permite estabilizar el flujo gaseoso, devolviendo un silencio precario al sector; no obstante, la victoria es efímera. Un crujido sordo, una nota grave que parece nacer del propio esqueleto de hierro de la cúpula, resuena a través de las placas, advirtiendo que la fatiga del material ha llegado a su punto crítico y que la estructura se encuentra al borde de la fractura catastrófica."
+      ],
+      "opciones": [
+        {
+          "texto": "Seguir el rastro del crujido",
+          "destino": "nodo_7"
+        },
+        {
+          "texto": "Reunirte con el contingente militar",
+          "destino": "nodo_8"
+        }
+      ]
+    },
+    "nodo_4": {
+      "titulo": "Los Canales de Orod",
+      "texto": [
+        "El lodo hidrocarbúrico, frío y denso, se adhiere a las extremidades hasta llegar a la altura de las rodillas, dificultando cada movimiento dentro de este laberinto de cañerías olvidadas por la historia. En la penumbra absoluta que reina tras los muros, se percibe un chapoteo arrítmico, una secuencia de sonidos húmedos y calculados que sugieren una presencia acechando más allá del alcance de la vista."
+      ],
+      "opciones": [
+        {
+          "texto": "Encender una antorcha polimérica",
+          "destino": "nodo_9"
+        },
+        {
+          "texto": "Avanzar a ciegas en silencio",
+          "destino": "nodo_10"
+        }
+      ]
+    },
+    "nodo_5": {
+      "titulo": "El Enlace Empático",
+      "texto": [
+        "Al entrar en contacto con la carne desgarrada del herido, la capacidad empática de Lein actúa como un conducto maldito, forzando una conexión somática que no se limita a la información médica. Una descarga eléctrica de dolor atroz recorre el sistema nervioso central, una transferencia vívida y cruda de agonía pura que amenaza con desarticular la consciencia ante la magnitud del trauma compartido."
+      ],
+      "opciones": [
+        {
+          "texto": "Soportar el trauma y continuar el triaje",
+          "destino": "nodo_11"
+        },
+        {
+          "texto": "Cortar el vínculo neuronal inmediatamente",
+          "destino": "nodo_12"
+        }
+      ]
+    },
+    "nodo_6": {
+      "titulo": "Almacén Inundado",
+      "texto": [
+        "La marea oscura de desechos industriales ha reclamado el terreno, asfixiando los contenedores de polímeros de oxígeno que antaño eran vitales para la supervivencia. Allí donde antes había suministros, hoy solo queda un cementerio de chatarra galvanizada, piezas oxidadas y fragmentos inertes que apenas flotan en la negrura viscosa, confirmando que la escasez es ya una sentencia definitiva."
+      ],
+      "opciones": [
+        {
+          "texto": "Buscar en los compartimentos superiores",
+          "destino": "nodo_13"
+        },
+        {
+          "texto": "Regresar al hospital de campaña",
+          "destino": "nodo_14"
+        }
+      ]
+    },
+    "nodo_7": {
+      "titulo": "La Fisura del Techo",
+      "texto": [
+        "Desde las alturas, un goteo incesante de fluido hidráulico de alta densidad comienza a erosionar el metal de las vigas; el líquido cae como una lluvia viscosa y corrosiva que se consume con siseos al contacto con el acero inferior, desgastando su integridad estructural con la paciencia de un verdugo que sabe que el derrumbe es cuestión de tiempo."
+      ],
+      "opciones": [
+        {
+          "texto": "Sellar la grieta con resina epoxi",
+          "destino": "nodo_15"
+        },
+        {
+          "texto": "Alertar al capataz militar",
+          "destino": "nodo_16"
+        }
+      ]
+    },
+    "nodo_8": {
+      "titulo": "El Escudo de Dastael",
+      "texto": [
+        "Dastael se erige en el centro del pasillo, estático y monumental como una estatua de fundición abandonada en un campo de batalla pretérito. Sus ojos carecen de enfoque y sus manos, callosas y cubiertas de hollín, mantienen un firme agarre sobre un mandoble mellado por el uso intensivo, una pieza de acero que ha bebido más aceite que sangre en los interminables corredores de Orod."
+      ],
+      "opciones": [
+        {
+          "texto": "Pedirle que asegure el perímetro sur",
+          "destino": "nodo_17"
+        },
+        {
+          "texto": "Inspeccionar sus prótesis neumáticas",
+          "destino": "nodo_18"
+        }
+      ]
+    },
+    "nodo_9": {
+      "titulo": "Luz en la Chatarra",
+      "texto": [
+        "El fulgor azulado de la antorcha polimérica rasga la penumbra, iluminando momentáneamente siluetas asimétricas construidas a base de silicio gris y desperdicios electrónicos. La revelación es instantánea: los Cristalizados del Ruido, entidades cuya anatomía desafía la lógica de la forma, se aproximan con una cadencia errática, emitiendo una frecuencia disonante que presagia la violencia inminente."
+      ],
+      "opciones": [
+        {
+          "texto": "Adoptar una postura defensiva",
+          "destino": "nodo_19"
+        },
+        {
+          "texto": "Correr hacia las escaleras de servicio",
+          "destino": "nodo_20"
+        }
+      ]
+    },
+    "nodo_10": {
+      "titulo": "Emboscada Silenciosa",
+      "texto": [
+        "La oscuridad en este sector es una entidad absoluta, un vacío denso que anula la percepción espacial. Al avanzar, tu bota golpea la arista afilada de un contenedor de filtrado metálico, cuya estructura, corroída por siglos de condensación ácida, cede con un gemido agudo y estrepitoso. El impacto resuena a través de las rejillas del suelo, una señal acústica inconfundible que atraviesa el silencio estéril. Casi de inmediato, una serie de zumbidos mecánicos y el entrechocar de pistones hidráulicos delatan la presencia de los constructos, cuyas lentes ópticas comienzan a barrer el pasillo en busca del intruso que ha perturbado su patrulla de vigilancia."
+      ],
+      "opciones": [
+        {
+          "texto": "Llamar a Bashole para apoyo balístico",
+          "destino": "nodo_21"
+        },
+        {
+          "texto": "Esconderte bajo la chapa oxidada",
+          "destino": "nodo_22"
+        }
+      ]
+    },
+    "nodo_11": {
+      "titulo": "Resistencia Somática",
+      "texto": [
+        "Las defensas de tu organismo protestan ante la toxicidad ambiental; tu dermis se inflama, mostrando un tono violáceo bajo la luz parpadeante de las luminarias de emergencia. Sin embargo, bajo el frío rigor de la necesidad, logras imponer una férrea disciplina a tu sistema nervioso. Con manos precisas y despojadas de toda vacilación, manipulas los instrumental quirúrgicos sobre el cuerpo del soldado moribundo. El pulso errático del paciente comienza a estabilizarse, reflejando en el monitor de constantes vitales una mejoría artificial, un préstamo de tiempo ganado a una muerte que ya reclamaba su derecho sobre la carne lacerada."
+      ],
+      "opciones": [
+        {
+          "texto": "Administrar extracto de opio para calmar el dolor",
+          "destino": "nodo_23"
+        },
+        {
+          "texto": "Pedir a Dastael que lo transporte",
+          "destino": "nodo_24"
+        }
+      ]
+    },
+    "nodo_12": {
+      "titulo": "Colapso del Paciente",
+      "texto": [
+        "La desconexión del enlace neuronal es un proceso abrupto, una ruptura brutal del flujo de datos que mantenía la coherencia somática del herido. Al separar los filamentos de interfaz, los sensores detectan el cese inmediato de toda actividad cerebral y cardíaca; el fallo sistémico es total, definitivo e irrevocable. La máquina de soporte vital emite un tono monocorde y sostenido que perfora el silencio de la enfermería. Un peso gélido se asienta en tu pecho, el remordimiento, una constante existencial que te recuerda que, en este entorno de hierro y decadencia, la vida es solo un error estadístico corregido por la entropía."
+      ],
+      "opciones": [
+        {
+          "texto": "Intentar una reanimación neumática",
+          "destino": "nodo_25"
+        },
+        {
+          "texto": "Pasar al siguiente herido de la fila",
+          "destino": "nodo_26"
+        }
+      ]
+    },
+    "nodo_13": {
+      "titulo": "Nivel Superior del Almacén",
+      "texto": [
+        "El aire en el nivel superior es pesado, saturado de partículas de óxido suspendidas y un hedor a ozono recalentado. Tras apartar una pila de restos estructurales, descubres tres cartuchos de filtrado barométrico con sus sellos de presión intactos, reliquias de una tecnología que agoniza en el resto del complejo. Junto a ellos, un rollo de pergamino curtido y quebradizo reposa olvidado; su textura, inusualmente conservada, sugiere registros de tiempos previos a la gran sedimentación, un vestigio de información que el polvo ha intentado borrar sin éxito."
+      ],
+      "opciones": [
+        {
+          "texto": "Llevar los cartuchos a Marbo",
+          "destino": "nodo_27"
+        },
+        {
+          "texto": "Entregar los suministros a Lein",
+          "destino": "nodo_28"
+        }
+      ]
+    },
+    "nodo_14": {
+      "titulo": "Retorno Siniestro",
+      "texto": [
+        "La fragilidad de la megaestructura se manifiesta con un chasquido eléctrico seco: el sistema de alimentación principal colapsa. Los focos estelares que irrigaban luz hacia el techo se extinguen en secuencia, dejando tras de sí un rastro de fósforos moribundos que se desvanecen en una fracción de segundo. La oscuridad no solo es ausencia de luz, sino una presencia táctil y opresiva que sella el espacio, engullendo las distancias y los contornos. El silencio resultante es absoluto, solo interrumpido por el eco de tus propios latidos, que parecen martillear el vacío en espera de una reactivación incierta."
+      ],
+      "opciones": [
+        {
+          "texto": "Guiarte por el sonido de las alarmas de vapor",
+          "destino": "nodo_29"
+        },
+        {
+          "texto": "Esperar a que tus retinas se adapten",
+          "destino": "nodo_30"
+        }
+      ]
+    },
+    "nodo_15": {
+      "titulo": "Sellado Temporal",
+      "texto": [
+        "Vertiendo la resina sintética, logras contener la fuga de la catarata negra, un líquido denso que devora todo lo que toca. El procedimiento es un éxito técnico, pero el coste biológico es inmediato: los vapores cáusticos liberados durante la reacción química invaden tus vías respiratorias. Sientes cómo el tejido alveolar se contrae con cada inhalación, una punzada corrosiva que quema y dificulta el intercambio gaseoso. La irritación es severa, un recordatorio orgánico de que incluso las victorias en este lugar están marcadas por la degradación inevitable de tu propia biología."
+      ],
+      "opciones": [
+        {
+          "texto": "Usar una máscara de filtración rota",
+          "destino": "nodo_31"
+        },
+        {
+          "texto": "Retroceder hacia el cuartel general",
+          "destino": "nodo_32"
+        }
+      ]
+    },
+    "nodo_16": {
+      "titulo": "Ceguera Burocrática",
+      "texto": [
+        "Presentas los datos con la frialdad técnica que la situación requiere, pero el capataz, encadenado a una lógica de producción obsoleta, apenas levanta la mirada de sus pantallas. Para él, tus advertencias sobre la inminente falla crítica son meras fluctuaciones térmicas, ruido residual en el sistema de gestión de la megaestructura. Su desdén es una pared de autoridad ciega; está convencido de que la estructura es inmutable, una máquina perpetua que no conoce el desgaste, ignorando que el metal, al igual que los huesos, posee un límite de fatiga que está a punto de ser rebasado."
+      ],
+      "opciones": [
+        {
+          "texto": "Forzar el apagado manual del sector",
+          "destino": "nodo_33"
+        },
+        {
+          "texto": "Buscar a Bashole en las pasarelas",
+          "destino": "nodo_34"
+        }
+      ]
+    },
+    "nodo_17": {
+      "titulo": "Muro de Hierro",
+      "texto": [
+        "Dastael se desplaza con una cadencia mecánica, una marcha rígida y deliberada que ignora el terreno inestable. Cada paso suyo es una declaración de fuerza bruta contra el entorno. Frente a él, el lodo industrial —una amalgama viscosa de aceites y detritos orgánicos— parece retroceder, intimidado por la masa inamovible de su armadura. Su presencia crea un corredor de seguridad, un vacío de orden en medio del caos ambiental que te permite avanzar sin ser devorado por la viscosidad del suelo."
+      ],
+      "opciones": [
+        {
+          "texto": "Seguirlo de cerca protegiendo los flancos",
+          "destino": "nodo_35"
+        },
+        {
+          "texto": "Quedarte atrás calculando la ruta de escape",
+          "destino": "nodo_36"
+        }
+      ]
+    },
+    "nodo_18": {
+      "titulo": "Desgaste Mecánico",
+      "texto": [
+        "Observas con ojo analítico el andar de la unidad frente a ti. La cinemática de su movimiento es defectuosa: los actuadores de la rodilla derecha presentan una fatiga de materiales evidente, un micro-desalineamiento que produce un siseo metálico al entrar en contacto con la carga. Es una rotura inminente, un punto de falla que, si no se mitiga, condenará al chasis a la inmovilidad total en un terreno donde la velocidad es el único factor que separa la integridad de la desintegración."
+      ],
+      "opciones": [
+        {
+          "texto": "Aplicar lubricante sintético pesado",
+          "destino": "nodo_37"
+        },
+        {
+          "texto": "Ignorar el fallo y continuar la marcha",
+          "destino": "nodo_38"
+        }
+      ]
+    },
+    "nodo_19": {
+      "titulo": "Frente a los Cristalizados",
+      "texto": [
+        "Los constructos cristalizados emergen de la bruma con una geometría antinatural, sus cuerpos revestidos de silicio afilado que refleja la escasa luz. Emiten un zumbido disonante, una frecuencia de resonancia pura que no solo se escucha, sino que se siente físicamente; las vibraciones atraviesan tu equipo y se instalan en tus cavidades óseas, provocando una náusea mecánica. Ante este despliegue de tecnología hostil, el aire parece solidificarse, marcando el inicio de un enfrentamiento donde la biología humana es el eslabón más débil."
+      ],
+      "opciones": [
+        {
+          "texto": "Atacar con una barra de acero templado",
+          "destino": "nodo_39"
+        },
+        {
+          "texto": "Utilizar un pulso magnético rudimentario",
+          "destino": "nodo_40"
+        }
+      ]
+    },
+    "nodo_20": {
+      "titulo": "Escaleras Oxidadas",
+      "texto": [
+        "La estructura metálica, carcomida por una corrosión galvánica implacable, gime bajo una presión que no fue diseñada para soportar. Cada uno de los peldaños de chapa estriada se deforma con un sonido agónico, astillando el óxido en escamas rojizas que flotan en el aire enrarecido. La gravedad reclama su tributo: al fracturarse el soporte principal, el equilibrio se pierde, arrastrándote en una caída libre hacia la penumbra de un colector de residuos subterráneo, donde el hedor a detritos orgánicos y metales pesados presagia un impacto inminente."
+      ],
+      "opciones": [
+        {
+          "texto": "Sujetarte de un cable coaxial expuesto",
+          "destino": "nodo_41"
+        },
+        {
+          "texto": "Dejarte caer controladamente en el fango",
+          "destino": "nodo_42"
+        }
+      ]
+    },
+    "nodo_21": {
+      "titulo": "El Arquero de la Quietud",
+      "texto": [
+        "Bashole se convierte en una estatua de tensión cinética; su respiración se suspende, eliminando cualquier movimiento parásito que pudiera alterar la precisión del disparo. Con una calma casi mineral, tensa la cuerda de su arco compuesto, forjado a partir de restos óseos reforzados sintéticamente. La flecha, una astilla de obsidiana tratada, queda lista para liberar la energía acumulada en una trayectoria de cálculo balístico infalible, diseñada para interceptar la vida con una eficiencia técnica absoluta."
+      ],
+      "opciones": [
+        {
+          "texto": "Avanzar mientras el enemigo está distraído",
+          "destino": "nodo_43"
+        },
+        {
+          "texto": "Cubrir la retaguardia de Bashole",
+          "destino": "nodo_44"
+        }
+      ]
+    },
+    "nodo_22": {
+      "titulo": "Oculto en las Sombras",
+      "texto": [
+        "La procesión de los Cristalizados avanza con una cadencia hipnótica, una presencia geométrica y fría que altera el espacio a su alrededor. Te mantienes inmóvil en el umbral de las sombras, sintiendo cómo la estática residual que desprenden estas entidades atraviesa tus defensas electromagnéticas. El campo de interferencia se infiltra en tus implantes menores, provocando un baile de errores lógicos y falsos positivos en tus visores periféricos que amenaza con dejarte ciego en medio de la emboscada."
+      ],
+      "opciones": [
+        {
+          "texto": "Reiniciar tus sistemas cognitivos",
+          "destino": "nodo_45"
+        },
+        {
+          "texto": "Moverte lentamente hacia el norte",
+          "destino": "nodo_46"
+        }
+      ]
+    },
+    "nodo_23": {
+      "titulo": "Química de Alivio",
+      "texto": [
+        "El extracto viscoso, obtenido mediante procesos de refinado precarios, desciende por la garganta del paciente, iniciando una reacción química que inhibe de forma drástica la actividad neuronal vinculada al dolor. Es una victoria de la medicina de emergencia, aunque táctica y existencialmente amarga: el costo de este milagro químico ha mermado tus reservas estratégicas, dejando tu equipo médico en un estado de vulnerabilidad crítica ante las futuras necesidades que la entropía de este sector seguramente exigirá."
+      ],
+      "opciones": [
+        {
+          "texto": "Buscar más opio en los distritos bajos",
+          "destino": "nodo_47"
+        },
+        {
+          "texto": "Preparar la evacuación masiva",
+          "destino": "nodo_48"
+        }
+      ]
+    },
+    "nodo_24": {
+      "titulo": "Logística de Carga",
+      "texto": [
+        "Dastael ejecuta el levantamiento con una economía de movimiento impecable; sus extremidades reforzadas absorben el peso inerte del soldado como si la masa fuera una mera variable aritmética en su vector de fuerza. No hay rastro de esfuerzo mecánico en su proceder, tan solo la fría integración de una carga adicional a su estructura, mientras su procesador interno recalibra constantemente el centro de gravedad para mantener la integridad del conjunto durante el avance por el terreno inestable."
+      ],
+      "opciones": [
+        {
+          "texto": "Guiar a Dastael a través del pantano",
+          "destino": "nodo_49"
+        },
+        {
+          "texto": "Revisar el estado de los demás civiles",
+          "destino": "nodo_50"
+        }
+      ]
+    },
+    "nodo_25": {
+      "titulo": "Presión de Vapor Manual",
+      "texto": [
+        "Accionas el fuelle neumático, forzando un ritmo artificial en los pulmones del paciente que, durante unos segundos, devuelve un atisbo de homeostasis al organismo. Sin embargo, el sistema de filtrado ha colapsado hace tiempo; el aire que inyectas está saturado de hollín y partículas tóxicas suspendidas, una mezcla corrosiva que, mientras intenta evitar la muerte inmediata, siembra la semilla de una degradación pulmonar irreversible en el tejido ya debilitado."
+      ],
+      "opciones": [
+        {
+          "texto": "Continuar a pesar de la contaminación",
+          "destino": "nodo_51"
+        },
+        {
+          "texto": "Detener el proceso y declarar el deceso",
+          "destino": "nodo_52"
+        }
+      ]
+    },
+    "nodo_26": {
+      "titulo": "El Flujo Implacable",
+      "texto": [
+        "La procesión de cuerpos rotos se extiende más allá de lo que la vista puede abarcar, una cinta transportadora de sufrimiento humano que desafía toda lógica de resistencia biológica. Tu propio sistema nervioso, sobrecargado por el constante procesamiento de estímulos negativos y la falta de periodos de descanso homeostático, comienza a mostrar síntomas de degradación sináptica. La fatiga no es solo muscular; es una desconexión progresiva entre tu voluntad y tus comandos motores."
+      ],
+      "opciones": [
+        {
+          "texto": "Consumir una ración de polímero calórico",
+          "destino": "nodo_53"
+        },
+        {
+          "texto": "Mantener el ritmo sin pausas",
+          "destino": "nodo_54"
+        }
+      ]
+    },
+    "nodo_27": {
+      "titulo": "Los Cálculos de Marbo",
+      "texto": [
+        "Marbo extiende el pergamino, un fragmento de papel sintético cuya superficie está cubierta de anotaciones matemáticas que destilan desesperación y precisión. Con un gesto seco, señala un punto en el mapa. 'La saturación hídrica actual nos confina a una ventana de supervivencia de exactamente veintiún días', sentencia con voz desprovista de emoción. Las cifras no mienten; el tiempo se ha convertido en una variable finita y en franco declive, exigiendo una toma de decisiones que ignore cualquier apego emocional."
+      ],
+      "opciones": [
+        {
+          "texto": "Proponer la ruta de la Falla tectónica",
+          "destino": "nodo_55"
+        },
+        {
+          "texto": "Sugerir resistir en los búnkeres de Orod",
+          "destino": "nodo_56"
+        }
+      ]
+    },
+    "nodo_28": {
+      "titulo": "Refuerzo en el Hospital",
+      "texto": [
+        "El silbido sordo de los cartuchos purificadores inunda la atmósfera del triaje, desplazando el aire viciado y reduciendo la densidad de los gases irritantes que asfixiaban a Lein. Los espasmos involuntarios en su caja torácica comienzan a mitigarse, un alivio momentáneo obtenido mediante la ciencia. No obstante, el silencio que sigue no es de paz, sino de espera; la tecnología solo ha comprado una tregua temporal en un entorno donde la supervivencia es una anomalía estadística."
+      ],
+      "opciones": [
+        {
+          "texto": "Organizar la defensa del hospital",
+          "destino": "nodo_57"
+        },
+        {
+          "texto": "Consultar el plano del sector medio",
+          "destino": "nodo_58"
+        }
+      ]
+    },
+    "nodo_29": {
+      "titulo": "Eco Acústico",
+      "texto": [
+        "El ulular intermitente de las sirenas resuena en las paredes de hormigón desnudo, creando una estridencia que desorienta tus sensores auditivos. La oscuridad es absoluta, solo interrumpida por la vibración sísmica que asciende desde los cimientos; el suelo bajo tus pies, una rejilla metálica ya de por sí precaria, comienza a oscilar con una amplitud violenta que amenaza con fracturar las sujeciones y arrojarte al abismo mecánico de las entrañas de la ciudad."
+      ],
+      "opciones": [
+        {
+          "texto": "Saltar hacia una plataforma elevada",
+          "destino": "nodo_59"
+        },
+        {
+          "texto": "Mantener el paso firme en el suelo de rejilla",
+          "destino": "nodo_60"
+        }
+      ]
+    },
+    "nodo_30": {
+      "titulo": "Brillo Residual",
+      "texto": [
+        "La fatiga visual se disipa ante la revelación de la geometría oculta en el abandono. Tus ojos, adaptados a la penumbra tóxica, captan ahora el fulgor espectral de las aleaciones metálicas, cuyos bordes se curvan y fracturan bajo la presión implacable del colapso térmico. El metal, despojado de su propósito original, emite un espectro de luz moribunda que sugiere una estructura molecular en plena agonía. Es una danza de electrones excitados por la entropía, un recordatorio silencioso de que incluso la materia más resistente posee un umbral de claudicación ante el vacío existencial que devora este entorno."
+      ],
+      "opciones": [
+        {
+          "texto": "Seguir la línea de aleación pulida",
+          "destino": "nodo_61"
+        },
+        {
+          "texto": "Investigar un destello violeta cercano",
+          "destino": "nodo_62"
+        }
+      ]
+    },
+    "nodo_31": {
+      "titulo": "Aire Tamizado",
+      "texto": [
+        "La máscara de filtración es un muro endeble contra la atmósfera hostil. Aunque el mecanismo de purificación retiene eficazmente las partículas pesadas que suspendidas en el aire buscan penetrar en los alvéolos, el gradiente de presión atmosférica es una fuerza física ineludible. Cada paso supone un ataque directo a la integridad del oído interno; el zumbido constante se convierte en un aguijón metálico que taladra tus tímpanos, mientras la presión barométrica comprime los fluidos corporales, recordándote que tu propia biología es un sistema fallido bajo estas condiciones extremas."
+      ],
+      "opciones": [
+        {
+          "texto": "Descender a un nivel de menor presión",
+          "destino": "nodo_63"
+        },
+        {
+          "texto": "Soportar la tortura barométrica",
+          "destino": "nodo_64"
+        }
+      ]
+    },
+    "nodo_32": {
+      "titulo": "Refugio Militar",
+      "texto": [
+        "El umbral del cuartel es un refugio ilusorio, una cáscara de hormigón que apenas contiene el desánimo. En el interior, los oficiales se congregan en una vigilia estéril, frotándose las manos con movimientos mecánicos y desesperados, buscando una fuente de calidez térmica que Tairra, en su gélida indiferencia, les niega categóricamente. El aire huele a ozono, tabaco barato y el sudor frío de quienes comprenden que su autoridad es apenas un constructo frente a la inevitabilidad de la desolación exterior. La infraestructura es sólida, pero el espíritu del lugar es un vacío que reclama su tributo."
+      ],
+      "opciones": [
+        {
+          "texto": "Firmar la orden de evacuación masiva",
+          "destino": "nodo_65"
+        },
+        {
+          "texto": "Exigir un reconocimiento de las defensas",
+          "destino": "nodo_66"
+        }
+      ]
+    },
+    "nodo_33": {
+      "titulo": "Sabotaje Lógico",
+      "texto": [
+        "El acto de forzar el disyuntor es una intrusión brutal en el sistema nervioso de la estructura. Al interrumpir el flujo energético, el silencio sucede al zumbido de las bombas con una violencia casi física; la caída súbita de la temperatura provoca una contracción catastrófica de los materiales. Los conductos de metal, antes dilatados por el calor constante, gimen y se retuercen sobre sí mismos, fracturándose en un concierto de chirridos metálicos que presagian el colapso inminente de la infraestructura circundante. La estabilidad del entorno se ha disuelto, dejando paso al caos de los restos térmicos."
+      ],
+      "opciones": [
+        {
+          "texto": "Correr antes de que estallen los conductos",
+          "destino": "nodo_67"
+        },
+        {
+          "texto": "Buscar cobertura tras una viga de carga",
+          "destino": "nodo_68"
+        }
+      ]
+    },
+    "nodo_34": {
+      "titulo": "Nido del Arquero",
+      "texto": [
+        "Encuentras a Bashole sumido en una tarea de precisión aséptica, con los dedos enguantados ajustando los pliegues de su capucha de fibra sintética deshilachada. El tejido, desgastado por años de exposición a la corrosión ambiental, parece ser una segunda piel. Bashole no es un hombre, sino un instrumento de observación, un elemento del paisaje diseñado para la letalidad a distancia. Su mirada, fija en los horizontes yermos, refleja una desconexión total con lo humano, concentrada únicamente en el mantenimiento de su equipo y en la detección de cualquier irregularidad en el pantano circundante."
+      ],
+      "opciones": [
+        {
+          "texto": "Pedirle que vigile el pantano central",
+          "destino": "nodo_69"
+        },
+        {
+          "texto": "Ofrecerle fragmentos de hierro de cimiento",
+          "destino": "nodo_70"
+        }
+      ]
+    },
+    "nodo_35": {
+      "titulo": "Avance en la Tormenta",
+      "texto": [
+        "La hoja del mandoble de Dastael desciende con una precisión calculada, cortando el aire antes de impactar contra la masa aglomerada de detritos sintéticos que sella el camino. El impacto es sordo, una transferencia de energía cinética que desarticula la estructura compacta, permitiendo que la gravedad haga el resto y abra una brecha angosta en la muralla artificial. Más allá de la apertura, el aire viciado fluye con una urgencia eléctrica, arrastrando partículas de un mundo que se deshace bajo la presión de una tormenta que parece no tener principio ni fin."
+      ],
+      "opciones": [
+        {
+          "texto": "Cruzar el umbral inmediatamente",
+          "destino": "nodo_71"
+        },
+        {
+          "texto": "Asegurar las carretas de provisiones",
+          "destino": "nodo_72"
+        }
+      ]
+    },
+    "nodo_36": {
+      "titulo": "Análisis del Terreno",
+      "texto": [
+        "El suelo bajo tus pies emite un sonido líquido y opresivo antes de ceder. Lo que se presentaba como una superficie transitable se revela como una impostura: Orod no es una base firme, sino una balsa flotante de lodo perpetuo, un sedimento inestable que oculta un vacío profundo y visceral. La geografía es un engaño, una capa fina que recubre una pesadilla geológica donde la solidez es un concepto ausente. Cada paso es una apuesta contra el hundimiento, una danza sobre el abismo de un terreno que no desea ser pisado."
+      ],
+      "opciones": [
+        {
+          "texto": "Medir la profundidad del foso",
+          "destino": "nodo_73"
+        },
+        {
+          "texto": "Avisar a la columna que evite la zona",
+          "destino": "nodo_74"
+        }
+      ]
+    },
+    "nodo_37": {
+      "titulo": "Calibración de la Prótesis",
+      "texto": [
+        "La aplicación del aceite sintético en los engranajes de la articulación es un rito de mantenimiento vital. La sustancia viscosa penetra en las juntas, disipando la acumulación de detritos y reduciendo la fricción a niveles óptimos. Dastael, con la paciencia de quien no posee otro remedio, espera a que el sistema se reestabilice. Gradualmente, el metrónomo de su marcha recupera su cadencia homogénea, un sonido rítmico y carente de emoción que marca el paso de un ser que ha sacrificado su humanidad en favor de la funcionalidad mecánica pura."
+      ],
+      "opciones": [
+        {
+          "texto": "Continuar hacia la Falla de la salida",
+          "destino": "nodo_75"
+        },
+        {
+          "texto": "Establecer un puesto de control temporal",
+          "destino": "nodo_76"
+        }
+      ]
+    },
+    "nodo_38": {
+      "titulo": "Fallo en el Actuador",
+      "texto": [
+        "Un chasquido seco, discordante con el entorno, anuncia la fatiga de los materiales. El pistón hidráulico del tobillo de Dastael ha cedido bajo la tensión, dejando su extremidad bloqueada en un ángulo contra natura. Cada avance se transforma en un ejercicio de agonía mecánica; el metal roza el hueso —o lo que queda de él bajo la prótesis— y Dastael se ve obligado a modificar su centro de gravedad, compensando la pérdida de funcionalidad con un esfuerzo muscular asimétrico que compromete su ya precaria estabilidad."
+      ],
+      "opciones": [
+        {
+          "texto": "Obligarlo a detenerse para reparación",
+          "destino": "nodo_77"
+        },
+        {
+          "texto": "Permitir que use su espada como apoyo",
+          "destino": "nodo_78"
+        }
+      ]
+    },
+    "nodo_39": {
+      "titulo": "Colisión de Materiales",
+      "texto": [
+        "La barra impacta contra la costra de silicio con una transferencia brutal de energía cinética, provocando una onda de choque que recorre tus brazos. En el punto de contacto, el material cede momentáneamente, liberando una ráfaga de chispas violetas que iluminan la oscuridad con una incandescencia química. El estallido es breve, una reacción termodinámica producida por la fractura de la costra, que revela la naturaleza inerte y frágil de la superficie frente a la presión directa. El aire se llena con el olor acre del sílice fundido."
+      ],
+      "opciones": [
+        {
+          "texto": "Presionar el ataque con fuerza bruta",
+          "destino": "nodo_79"
+        },
+        {
+          "texto": "Retroceder buscando un punto ciego",
+          "destino": "nodo_80"
+        }
+      ]
+    },
+    "nodo_40": {
+      "titulo": "Descarga Electromagnética",
+      "texto": [
+        "Un chasquido seco precede a la descarga, una ruptura en el tejido del aire que se ioniza instantáneamente, emitiendo un fulgor azulado que huele a ozono y metal quemado. La onda expansiva, cargada de una energía de alta frecuencia, recorre la sala como un látigo invisible, logrando lo imposible: congelar los circuitos asimétricos y las lógicas fractales que sustentan la existencia de los Cristalizados. Sus formas prismáticas, antes vibrantes de una hostilidad algorítmica, quedan suspendidas en una parálisis estática, prisioneras de un estado cuántico donde el movimiento ha sido brutalmente negado por la física del pulso."
+      ],
+      "opciones": [
+        {
+          "texto": "Destruir sus núcleos inestables",
+          "destino": "nodo_81"
+        },
+        {
+          "texto": "Aprovechar el apagado para huir",
+          "destino": "nodo_82"
+        }
+      ]
+    },
+    "nodo_41": {
+      "titulo": "Tensión del Cable",
+      "texto": [
+        "El cable de acero, trenzado con fibras de polímero sintético, gime bajo la carga de tu peso, oscilando con una tensión que amenaza con deshilacharse en cualquier instante. Mientras te suspendes sobre el vacío, una descarga estática, producto de la fricción magnética del entorno, recorre la estructura y se transfiere a tus miembros, adormeciendo tus terminales nerviosas hasta convertir tus extremidades en extensiones insensibles y torpes que apenas responden a las órdenes de tu córtex cerebral."
+      ],
+      "opciones": [
+        {
+          "texto": "Dejarte caer en la plataforma intermedia",
+          "destino": "nodo_83"
+        },
+        {
+          "texto": "Sujetarte con más fuerza y trepar",
+          "destino": "nodo_84"
+        }
+      ]
+    },
+    "nodo_42": {
+      "titulo": "Inmersión Química",
+      "texto": [
+        "El impacto contra la superficie viscosa es amortiguado por la densidad abyecta del lodo, una mezcla estancada de aceites industriales y desechos orgánicos. Aunque la sustancia cumple la función mecánica de disipar la energía cinética de tu caída, los hidrocarburos pesados y los agentes corrosivos contenidos en el residuo comienzan a filtrarse a través de las fibras de tu indumentaria, irritando tu dermis con una ponzoña química que promete dejar cicatrices permanentes si no se neutraliza a tiempo."
+      ],
+      "opciones": [
+        {
+          "texto": "Buscar agua de filtración limpia",
+          "destino": "nodo_85"
+        },
+        {
+          "texto": "Ignorar la irritación y avanzar",
+          "destino": "nodo_86"
+        }
+      ]
+    },
+    "nodo_43": {
+      "titulo": "Flanco Despejado",
+      "texto": [
+        "La letalidad de Bashole se manifiesta en cada disparo; sus flechas de hueso, talladas con precisión matemática y punta de obsidiana sintética, atraviesan la armadura de la vanguardia enemiga como si fuera simple papel. El desmantelamiento de la fuerza de choque es quirúrgico: el tirador no desperdicia un solo proyectil, anulando articulaciones y sensores enemigos con una eficacia mecánica que despeja el camino a través de la carnicería."
+      ],
+      "opciones": [
+        {
+          "texto": "Avanzar hacia el puente de servicio",
+          "destino": "nodo_87"
+        },
+        {
+          "texto": "Montar una barricada con chatarra",
+          "destino": "nodo_88"
+        }
+      ]
+    },
+    "nodo_44": {
+      "titulo": "Soporte al Tirador",
+      "texto": [
+        "La observación es clínica y devastadora: el sistema muscular de Bashole comienza a colapsar bajo el peso de un temblor crónico e incontrolable. Sus manos, otrora herramientas de precisión milimétrica, ahora exhiben una oscilación errática que traiciona una fatiga sistémica o un daño neurológico progresivo, haciendo que su capacidad para mantener la retícula sobre el objetivo se convierta en una apuesta incierta frente a la creciente hostilidad del entorno."
+      ],
+      "opciones": [
+        {
+          "texto": "Ofrecerle una dosis de opio sintético",
+          "destino": "nodo_89"
+        },
+        {
+          "texto": "Reemplazarlo en la línea de tiro",
+          "destino": "nodo_90"
+        }
+      ]
+    },
+    "nodo_45": {
+      "titulo": "Recalibración Cognitiva",
+      "texto": [
+        "Sientes cómo el ruido parásito en tu flujo de pensamiento se disipa, permitiendo que tus sinapsis se limpien de la estática residual que nublaba tu juicio. En ese estado de claridad forzada, tu visión procesa los patrones de la pared con una lucidez impropia, revelando bajo la mugre y la corrosión un mapa analógico oculto, una cartografía de la infraestructura subterránea tallada a mano que ofrece una ruta lógica a través del caos."
+      ],
+      "opciones": [
+        {
+          "texto": "Seguir la ruta del mapa hacia el taller",
+          "destino": "nodo_91"
+        },
+        {
+          "texto": "Volver al camino principal de la columna",
+          "destino": "nodo_92"
+        }
+      ]
+    },
+    "nodo_46": {
+      "titulo": "Tránsito Umbrío",
+      "texto": [
+        "Te deslizas en la penumbra de un laberinto claustrofóbico, una red de tuberías colosales que transportan el fluido negro y viscoso del lubricante usado de la ciudad. El entorno vibra con el sonido sordo del bombeo hidráulico y el calor residual que emana de las paredes metálicas, creando una atmósfera opresiva donde el aire, saturado de vapores tóxicos, es apenas respirable para los pulmones biológicos."
+      ],
+      "opciones": [
+        {
+          "texto": "Cruzar por encima de una tubería caliente",
+          "destino": "nodo_93"
+        },
+        {
+          "texto": "Avanzar por el túnel inferior de drenaje",
+          "destino": "nodo_94"
+        }
+      ]
+    },
+    "nodo_47": {
+      "titulo": "Los Distritos Bajos",
+      "texto": [
+        "Estas calles no son más que arterias de desechos para la metrópoli, canales de evacuación donde la miseria se acumula en niveles geológicos. El aire está cargado de un hedor acre, una mezcla de descomposición y óxido que impregna todo, revelando la verdadera cara del sistema: una existencia reducida al desperdicio, donde los habitantes son solo apéndices desechables de una maquinaria que ha dejado de preocuparse por su mantenimiento."
+      ],
+      "opciones": [
+        {
+          "texto": "Saquear una botica militar abandonada",
+          "destino": "nodo_95"
+        },
+        {
+          "texto": "Interrogar a un vigía moribundo",
+          "destino": "nodo_96"
+        }
+      ]
+    },
+    "nodo_48": {
+      "titulo": "Éxodo de Parámetros",
+      "texto": [
+        "La columna comienza a marchar con una parsimonia fúnebre, una procesión de supervivientes cuyas vidas se resumen en los hatillos que cargan: fragmentos de cables de fibra, componentes reutilizados y la esperanza de una lógica de supervivencia aún no corrompida. La inmensa masa avanza bajo un cielo cargado de estática, donde cada paso es una negociación con la inercia de una sociedad que se desmorona por completo."
+      ],
+      "opciones": [
+        {
+          "texto": "Abrir la marcha junto a Dastael",
+          "destino": "nodo_97"
+        },
+        {
+          "texto": "Cerrar la retaguardia vigilando fallos",
+          "destino": "nodo_98"
+        }
+      ]
+    },
+    "nodo_49": {
+      "titulo": "Travesía del Lodazal",
+      "texto": [
+        "Los bueyes de carga, animales de trabajo cuya robustez ha sido superada por la inefabilidad del terreno, resbalan una y otra vez en el fango negro. La sustancia, una mezcla coloidal de arcilla y fluidos industriales, parece poseer una cadencia geológica, ascendiendo alrededor de las ruedas con una lentitud que desafía cualquier intento de tracción humana, atrapando el progreso en una prisión de lodo y desesperación."
+      ],
+      "opciones": [
+        {
+          "texto": "Abandonar el equipo pesado para aligerar",
+          "destino": "nodo_99"
+        },
+        {
+          "texto": "Colocar cuñas de hierro bajo las ruedas",
+          "destino": "nodo_100"
+        }
+      ]
+    },
+    "nodo_50": {
+      "titulo": "Cuidado del Contingente",
+      "texto": [
+        "La atmósfera de la falla es un entorno hostil de isobaras erráticas y un gradiente térmico que succiona la energía vital de todo organismo biológico. Sostienes el brazo de la anciana; su piel, reducida a una membrana traslúcida y quebradiza, transmite una vibración mecánica e incesante, producto del choque de su sistema nervioso contra la hipotermia incipiente. El aire viciado parece condensarse sobre sus hombros mientras su consciencia fluctúa en un limbo de entumecimiento y fallo multiorgánico inminente."
+      ],
+      "opciones": [
+        {
+          "texto": "Transferir tu calor biológico",
+          "destino": "nodo_101"
+        },
+        {
+          "texto": "Buscar una manta aislante en los carros",
+          "destino": "nodo_102"
+        }
+      ]
+    },
+    "nodo_51": {
+      "titulo": "Pulmones Saturados",
+      "texto": [
+        "El aire negro, una amalgama de partículas de carbono en suspensión y subproductos industriales, inunda el habitáculo como un fluido denso y opresivo. Al ser inhalado, reanima brevemente las funciones motoras mediante una oxigenación agresiva, pero su toxicidad residual irrita las mucosas, desatando una síncopa de tos crónica que resuena entre los mamparos metálicos. Cada espasmo es un recordatorio de la degradación biológica a la que está sometido el grupo en este receptáculo sellado."
+      ],
+      "opciones": [
+        {
+          "texto": "Activar los extractores de vapor residual",
+          "destino": "nodo_103"
+        },
+        {
+          "texto": "Sellar las escotillas para evitar fugas",
+          "destino": "nodo_104"
+        }
+      ]
+    },
+    "nodo_52": {
+      "titulo": "Cese de Funciones",
+      "texto": [
+        "El soldado ha llegado al fin de su ciclo operativo. Su cuerpo, ahora un cascarón térmicamente neutro, yace entre los escombros con una rigidez impropia de la vida orgánica. Al registrar sus pertenencias con manos metódicas, encuentras un icono secular de hierro de cimiento: un objeto tosco, denso y cargado de una historia que trasciende su utilidad física. La frialdad del metal contrasta con la humanidad que alguna vez albergó el difunto, ofreciendo un peso existencial que requiere una decisión inmediata."
+      ],
+      "opciones": [
+        {
+          "texto": "Entregar el icono a Lein como reliquia",
+          "destino": "nodo_105"
+        },
+        {
+          "texto": "Utilizar el metal del icono como cuña",
+          "destino": "nodo_106"
+        }
+      ]
+    },
+    "nodo_53": {
+      "titulo": "Sustento Químico",
+      "texto": [
+        "Ingieres la masa de polímero sintético; una solución nutriente diseñada para la supervivencia pura, desprovista de cualquier rasgo de placer sensorial. La sustancia se desliza por tu esófago, neutralizando la respuesta de hambre del hipotálamo, pero dejando a su paso una estela de sabor amargo y una textura metálica, casi eléctrica, que se adhiere a tus papilas. Es el gusto de la eficiencia, la negación del deleite en favor de la operatividad mecánica del organismo ante el agotamiento."
+      ],
+      "opciones": [
+        {
+          "texto": "Volver al trabajo de triaje inmediatamente",
+          "destino": "nodo_107"
+        },
+        {
+          "texto": "Descansar un milisegundo en la penumbra",
+          "destino": "nodo_108"
+        }
+      ]
+    },
+    "nodo_54": {
+      "titulo": "Límite de Tolerancia",
+      "texto": [
+        "Tus articulaciones emiten un crujido seco, una queja mecánica de cartílagos sometidos a un esfuerzo fuera de los parámetros de seguridad. Una migraña severa, pulsante y geométrica, se manifiesta detrás de tus cuencas oculares, fragmentando tu campo de visión en manchas de luz estroboscópica y bordes negros que se cierran sobre el centro. La percepción de la realidad se degrada, amenazando con desconectarte de la vigilancia necesaria para la supervivencia en este sector hostil."
+      ],
+      "opciones": [
+        {
+          "texto": "Inyectarte un estabilizador neuronal",
+          "destino": "nodo_109"
+        },
+        {
+          "texto": "Forzar la vista y continuar operando",
+          "destino": "nodo_110"
+        }
+      ]
+    },
+    "nodo_55": {
+      "titulo": "La Falla de la Salida",
+      "texto": [
+        "Marbo articula un gesto afirmativo con la cabeza, su rostro una máscara de cálculo implacable bajo la luz mortecina. La evacuación, proyectada a través de las fracturas estructurales de la geología local, no es una cuestión de valentía, sino el resultado de un análisis probabilístico: el único camino que permite una resolución matemática favorable ante el colapso inminente de la infraestructura. La incertidumbre es un riesgo calculado en una ecuación donde el margen de error tiende a cero."
+      ],
+      "opciones": [
+        {
+          "texto": "Iniciar los preparativos de la marcha",
+          "destino": "nodo_111"
+        },
+        {
+          "texto": "Verificar la presión barométrica exterior",
+          "destino": "nodo_112"
+        }
+      ]
+    },
+    "nodo_56": {
+      "titulo": "La Opción del Búnker",
+      "texto": [
+        "Las palabras de Marbo cortan el aire con la precisión de un bisturí: la advertencia sobre la inundación inminente de lodos es una sentencia condenatoria para cualquier estructura cerrada. Los silos, diseñados para tiempos de estabilidad, se transformarán en una trampa de presión hidrostática si se mantienen las compuertas selladas bajo la masa de sedimentos. El análisis del terreno confirma su tesis: el búnker es, en este contexto, un ataúd prefabricado esperando ser enterrado por el lodo corrosivo."
+      ],
+      "opciones": [
+        {
+          "texto": "Cambiar de plan hacia la evacuación",
+          "destino": "nodo_111"
+        },
+        {
+          "texto": "Insistir y fortificar las compuertas",
+          "destino": "nodo_113"
+        }
+      ]
+    },
+    "nodo_57": {
+      "titulo": "Fortaleza Sanitaria",
+      "texto": [
+        "Apilas cajas oxidadas y restos metálicos para formar un perímetro defensivo, una barricada precaria contra lo desconocido. El aire dentro del recinto está saturado de una tensión estática que hace que el vello se erice, mientras un zumbido de baja frecuencia —proveniente del exterior— aumenta gradualmente, alterando la resonancia del habitáculo. La espera se vuelve un ejercicio de contención psicológica, donde cada segundo de silencio es una amenaza latente esperando a romper la integridad de las defensas."
+      ],
+      "opciones": [
+        {
+          "texto": "Enviar patrullas de reconocimiento",
+          "destino": "nodo_114"
+        },
+        {
+          "texto": "Esperar el impacto en posiciones fijas",
+          "destino": "nodo_115"
+        }
+      ]
+    },
+    "nodo_58": {
+      "titulo": "El Plano Secreto",
+      "texto": [
+        "El mapa, trazado con una cartografía de precisión arcaica pero infalible, brilla bajo el escáner revelando la ubicación del Quinto Cristal de Kaftakon. No es solo un mineral; es un faro de tecnología antigua, un núcleo energético capaz de emitir señales coherentes a través de la interferencia electromagnética de la falla. Poseer este objeto significa adquirir una ventaja estratégica decisiva, pero su localización exige atravesar zonas de alta inestabilidad física donde la geometría del mapa podría no coincidir con el terreno actual."
+      ],
+      "opciones": [
+        {
+          "texto": "Trazar una ruta directa hacia el Cristal",
+          "destino": "nodo_116"
+        },
+        {
+          "texto": "Estudiar los sistemas de drenaje adyacentes",
+          "destino": "nodo_117"
+        }
+      ]
+    },
+    "nodo_59": {
+      "titulo": "Plataforma de Servicio",
+      "texto": [
+        "El salto es ejecutado en el límite del tiempo crítico, un movimiento instintivo que separa el éxito de la aniquilación. Apenas tus pies abandonan el suelo, un alud catastrófico de residuos industriales —una masa informe de metal, escoria y materiales sintéticos— colapsa sobre el camino inferior con un estruendo que hace vibrar el entramado estructural. El trayecto anterior queda sepultado bajo toneladas de desecho, reduciendo las rutas de escape a los niveles elevados y a las cavidades técnicas apenas accesibles."
+      ],
+      "opciones": [
+        {
+          "texto": "Avanzar por las vigas suspendidas",
+          "destino": "nodo_118"
+        },
+        {
+          "texto": "Buscar una escotilla de mantenimiento",
+          "destino": "nodo_119"
+        }
+      ]
+    },
+    "nodo_60": {
+      "titulo": "Inundación por Rotura",
+      "texto": [
+        "Un chirrido metálico, agudo y agónico, precede al desastre. Sin previo aviso, el sello de una conducción principal colapsa bajo el estrés estructural, vomitando un chorro a alta presión de aceite lubricante hirviente que calcina el aire al contacto. La neblina tóxica y el calor radiante transforman el pasillo en una ratonera. Los civiles, paralizados por el instinto de preservación, se aglutinan en un caos desordenado; el pánico, esa disolución lógica de la jerarquía, comienza a fracturar la cohesión de la marcha, exponiendo a todos a un final mecánico e inevitable."
+      ],
+      "opciones": [
+        {
+          "texto": "Usar tu cuerpo como escudo para los civiles",
+          "destino": "nodo_120"
+        },
+        {
+          "texto": "Ordenar una retirada hacia el bloque C",
+          "destino": "nodo_121"
+        }
+      ]
+    },
+    "nodo_61": {
+      "titulo": "La Placa de Azrriamoh",
+      "texto": [
+        "El terreno bajo tus botas abandona su rugosidad orgánica para revelarse como una vasta planicie de metal pulido, refinado durante eones por una presión geológica inclemente. Aquí, la superficie no es suelo, sino el sustrato primigenio: el verdadero armazón de Tairra, una capa de acero endurecido que sostiene el peso del mundo. El silencio en este sector es absoluto, un vacío acústico que subraya la pequeñez de cualquier existencia frente a la escala monumental de esta ingeniería alienígena, casi divina."
+      ],
+      "opciones": [
+        {
+          "texto": "Buscar marcas de ensamblaje industrial",
+          "destino": "nodo_122"
+        },
+        {
+          "texto": "Seguir la llanura de óxido estéril",
+          "destino": "nodo_123"
+        }
+      ]
+    },
+    "nodo_62": {
+      "titulo": "Foco Radiante",
+      "texto": [
+        "Una luminiscencia errática parpadea en la penumbra. Se trata del núcleo de un Cristalizado colapsado, cuya geometría interna se ha fracturado, liberando un flujo de energía cinética inestable. El aire que lo rodea crepita con una estática violenta, erizando el vello de los brazos y cargando el entorno con un ozono eléctrico que presagia una descarga cataclísmica. Es una fuente de poder, o una sentencia de muerte en potencia si la reacción en cadena se descontrola."
+      ],
+      "opciones": [
+        {
+          "texto": "Extraer la celda de energía",
+          "destino": "nodo_124"
+        },
+        {
+          "texto": "Destruir el núcleo para evitar la atracción",
+          "destino": "nodo_125"
+        }
+      ]
+    },
+    "nodo_63": {
+      "titulo": "Cámara del Subsuelo",
+      "texto": [
+        "El descenso ha concluido y, aunque la inestabilidad tectónica se ha mitigado, el entorno presenta nuevos riesgos. El aire en esta cámara es una emulsión espesa de partículas en suspensión, saturada por una concentración insalubre de amoníaco que irrita las mucosas y nubla la visión. La atmósfera es sofocante, carente de oxigenación, y cada respiración se siente como una agresión química directa contra el sistema respiratorio."
+      ],
+      "opciones": [
+        {
+          "texto": "Encender un filtro de carbón industrial",
+          "destino": "nodo_126"
+        },
+        {
+          "texto": "Avanzar rápidamente sin respirar hondo",
+          "destino": "nodo_127"
+        }
+      ]
+    },
+    "nodo_64": {
+      "titulo": "Trauma Auditivo",
+      "texto": [
+        "La descompresión repentina ha superado los umbrales de tolerancia de tus oídos; un reguero de sangre tibia desciende por tu cuello, testimonio del martilleo de las presiones atmosféricas sobre tus tímpanos. A pesar de que el zumbido constante y agudo amenaza con desorientar tu equilibrio, tu resolución mental permanece como una línea inquebrantable, una voluntad de acero que se niega a someterse al dolor biológico y al caos del entorno."
+      ],
+      "opciones": [
+        {
+          "texto": "Reunirte con el contingente de Marbo",
+          "destino": "nodo_128"
+        },
+        {
+          "texto": "Buscar un analgésico sintético",
+          "destino": "nodo_129"
+        }
+      ]
+    },
+    "nodo_65": {
+      "titulo": "La Marcha Autorizada",
+      "texto": [
+        "Tras una revisión burocrática tan gélida como la indiferencia de los administradores, los oficiales estampan sus sellos de latón sobre la documentación. El sonido del metal contra el papel es el eco de un contrato tácito: la Marcha de los Desahuciados ha comenzado. Es un éxodo sin esperanza ni retorno, una procesión marcada por el destino del olvido, donde cada paso es una concesión ante una realidad que se deshace."
+      ],
+      "opciones": [
+        {
+          "texto": "Guiar al grupo hacia el pantano central",
+          "destino": "nodo_130"
+        },
+        {
+          "texto": "Revisar los tensores del arco de Bashole",
+          "destino": "nodo_131"
+        }
+      ]
+    },
+    "nodo_66": {
+      "titulo": "Inspección de Trinchera",
+      "texto": [
+        "Las defensas, antaño sólidas, presentan ahora una degradación terminal; el salitre ha penetrado en el corazón de las aleaciones, corroyendo el hierro hasta convertirlo en una cáscara quebradiza. La evaluación táctica es implacable: cualquier intento de resistir un asalto en esta posición carece de viabilidad estadística. La estructura está condenada, y el compromiso de defensa es poco más que una ilusión geométrica a punto de desmoronarse."
+      ],
+      "opciones": [
+        {
+          "texto": "Anular la resistencia y ordenar la retirada",
+          "destino": "nodo_65"
+        },
+        {
+          "texto": "Tratar de reforzar el hierro de cimiento",
+          "destino": "nodo_132"
+        }
+      ]
+    },
+    "nodo_67": {
+      "titulo": "Escape Explosivo",
+      "texto": [
+        "La carrera se convierte en una danza frenética entre la vida y la aniquilación. A tus espaldas, los conductos térmicos se fracturan en una serie de detonaciones encadenadas, liberando nubes de vapor corrosivo que devoran el aire y derriten todo lo que tocan. Tu visión se reduce a la urgencia del movimiento, mientras el rugido de la instalación colapsando impulsa tu avance hacia lo desconocido."
+      ],
+      "opciones": [
+        {
+          "texto": "Arrojarse tras una mampara de acero",
+          "destino": "nodo_133"
+        },
+        {
+          "texto": "Continuar corriendo hacia la zona segura",
+          "destino": "nodo_134"
+        }
+      ]
+    },
+    "nodo_68": {
+      "titulo": "Cobertura Insuficiente",
+      "texto": [
+        "La viga, un pilar de contención colapsado por el impacto, ha cumplido su función de escudo contra la caída, pero el coste ha sido tu inmovilidad. Un enredo de cables poliméricos, tensos como tendones de acero y viscosos por el fluido de refrigeración, te mantiene sujeto al escombro. Tu cuerpo está atrapado en un abrazo sintético, una jaula de filamentos que se tensan con cada intento de liberación."
+      ],
+      "opciones": [
+        {
+          "texto": "Cortar los cables con tu cuchillo romo",
+          "destino": "nodo_135"
+        },
+        {
+          "texto": "Esperar a que Dastael te libere",
+          "destino": "nodo_136"
+        }
+      ]
+    },
+    "nodo_69": {
+      "titulo": "Vigilancia del Abismo",
+      "texto": [
+        "Bashole permanece estático, su figura recortada contra la bruma de hidrocarburos. Sus ojos, desprovistos de emoción humana, escanean el horizonte con una inmovilidad mineral, como si él mismo fuera una extensión del metal que pisa. En esa mirada no hay temor ni duda, solo una vigilancia calculadora, una espera paciente ante los peligros que se ocultan en la opacidad del abismo."
+      ],
+      "opciones": [
+        {
+          "texto": "Proporcionarle flechas perforantes",
+          "destino": "nodo_137"
+        },
+        {
+          "texto": "Descender a preparar las briquetas de lodo",
+          "destino": "nodo_138"
+        }
+      ]
+    },
+    "nodo_70": {
+      "titulo": "Suministro Técnico",
+      "texto": [
+        "El hierro de cimiento se funde con los mecanismos de carga, reforzando los tensores de fibra sintética del arco con una precisión casi quirúrgica. Al ajustar las tuercas de anclaje, la estructura adquiere una tensión ominosa; al liberar la cuerda, el arma emite un chasquido metálico, seco y cortante, una respuesta mecánica exenta de vibraciones espurias que confirma su letalidad absoluta en el teatro de operaciones."
+      ],
+      "opciones": [
+        {
+          "texto": "Probar el arma contra una placa lejana",
+          "destino": "nodo_139"
+        },
+        {
+          "texto": "Guardar el arco para el frente sur",
+          "destino": "nodo_140"
+        }
+      ]
+    },
+    "nodo_71": {
+      "titulo": "Umbral Conquistado",
+      "texto": [
+        "Los pistones hidráulicos gimen bajo una presión titánica mientras las compuertas se deslizan con un siseo neumático, revelando el páramo exterior. El aire que se filtra es una mezcla opaca de partículas en suspensión y gases pesados, dotado de una densidad casi sólida que presiona contra la piel y los pulmones, recordándote que fuera de este refugio, la atmósfera es una entidad hostil que exige un esfuerzo constante para ser respirada."
+      ],
+      "opciones": [
+        {
+          "texto": "Establecer el campamento provisional",
+          "destino": "nodo_141"
+        },
+        {
+          "texto": "Continuar la marcha forzada bajo la niebla",
+          "destino": "nodo_142"
+        }
+      ]
+    },
+    "nodo_72": {
+      "titulo": "Carretas a Salvo",
+      "texto": [
+        "El esfuerzo coordinado permite estabilizar los ejes de las carretas, cuyos chasis crujían bajo el peso de la supervivencia. Tras verificar los sellados herméticos, aseguras el cargamento: bloques de musgo hidropónico procesado, una amalgama de nutrientes de color grisáceo y sabor insípido, cuya preservación es lo único que separa a la unidad de una desnutrición metabólica irreversible."
+      ],
+      "opciones": [
+        {
+          "texto": "Distribuir el alimento con salitre puro",
+          "destino": "nodo_143"
+        },
+        {
+          "texto": "Racionar estrictamente el sustento",
+          "destino": "nodo_144"
+        }
+      ]
+    },
+    "nodo_73": {
+      "titulo": "El Abismo Oculto",
+      "texto": [
+        "El terreno cede con un estruendo sordo y tectónico; una de las carretas de suministros se desploma en una sima de sedimentos licuados, perdiéndose en la oscuridad del fango. La estructura colapsa bajo el peso del lodo, hundiéndose treinta metros hacia una profundidad donde el oxígeno es inexistente y la presión es capaz de triturar el acero estructural en cuestión de segundos."
+      ],
+      "opciones": [
+        {
+          "texto": "Enviar a Dastael a recuperar la carga",
+          "destino": "nodo_145"
+        },
+        {
+          "texto": "Dar por perdida la carreta y avanzar",
+          "destino": "nodo_146"
+        }
+      ]
+    },
+    "nodo_74": {
+      "titulo": "Desvío Táctico",
+      "texto": [
+        "La columna maniobra con destreza, eludiendo la trampa de viscosidad que amenazaba con inmovilizar a las unidades de infantería en una muerte lenta por asfixia. No obstante, al desviarse, el grupo ha penetrado en un sector donde la estática ioniza el ambiente; los sensores parpadean erráticamente y el vello de los brazos se eriza ante la descarga eléctrica latente que satura el aire y confunde los sistemas de guía."
+      ],
+      "opciones": [
+        {
+          "texto": "Usar el astrolabio para filtrar señales",
+          "destino": "nodo_147"
+        },
+        {
+          "texto": "Avanzar en formación compacta",
+          "destino": "nodo_148"
+        }
+      ]
+    },
+    "nodo_75": {
+      "titulo": "Hacia la Falla Tectónica",
+      "texto": [
+        "El camino se abre ante la columna, despejado de obstáculos pero sumido en un descenso térmico radical. La temperatura cae bajo cero con una agresividad antinatural, transformando la humedad ambiental en agujas de cristal microscópicas que se alojan en los alvéolos pulmonares, provocando un dolor agudo y punzante en cada bocanada de aire viciado que el sistema respiratorio intenta procesar."
+      ],
+      "opciones": [
+        {
+          "texto": "Encender briquetas de lodo destilado",
+          "destino": "nodo_149"
+        },
+        {
+          "texto": "Soportar el frío criogénico",
+          "destino": "nodo_150"
+        }
+      ]
+    },
+    "nodo_76": {
+      "titulo": "Puesto Perimetral",
+      "texto": [
+        "Se erige un puesto de observación bajo la penumbra del entorno. Bashole, con los ojos inyectados en sangre por la fatiga del monitoreo constante, señala una serie de anomalías térmicas en el espectro infrarrojo; firmas de calor que fluctúan en el horizonte, sugiriendo una presencia invisible que observa a la patrulla desde las sombras de la desolación."
+      ],
+      "opciones": [
+        {
+          "texto": "Preparar los arcos de compuesto óseo",
+          "destino": "nodo_151"
+        },
+        {
+          "texto": "Sofocar cualquier firma de calor",
+          "destino": "nodo_152"
+        }
+      ]
+    },
+    "nodo_77": {
+      "titulo": "Reparación Quirúrgica",
+      "texto": [
+        "Lein despliega el instrumental y expone la articulación dañada de Dastael, revelando tendones sintéticos deshilachados y cables de datos al descubierto. Las manos de Lein, generalmente precisas, oscilan debido a una sobrecarga del sistema nervioso que le impide mantener la estabilidad; cada movimiento es un acto de voluntad contra un temblor visceral provocado por el agotamiento extremo."
+      ],
+      "opciones": [
+        {
+          "texto": "Guiar sus dedos para anclar los tendones",
+          "destino": "nodo_153"
+        },
+        {
+          "texto": "Dejar que actúe bajo su propio instinto",
+          "destino": "nodo_154"
+        }
+      ]
+    },
+    "nodo_78": {
+      "titulo": "El Guerrero Cojo",
+      "texto": [
+        "Dastael se sostiene sobre su mandoble, utilizándolo como una prótesis improvisada para aliviar la presión sobre su pierna lisiada. A pesar de la mutilación mecánica, su semblante permanece inalterable, imbuido de una rigidez casi inhumana; es una figura de estoicismo bélico, un combatiente cuya determinación es la única constante en medio de la fragmentación física de su chasis."
+      ],
+      "opciones": [
+        {
+          "texto": "Asignarle un puesto estático de defensa",
+          "destino": "nodo_155"
+        },
+        {
+          "texto": "Permitir que lidere la vanguardia",
+          "destino": "nodo_156"
+        }
+      ]
+    },
+    "nodo_79": {
+      "titulo": "Furia de Acero",
+      "texto": [
+        "Tu embestida colisiona contra el chasis del enemigo con una fuerza destructiva que fragmenta el metal y los circuitos internos. Sin embargo, el impacto genera un arco voltaico que recorre tu sistema, provocando una descarga eléctrica de retorno que te inflige una jaqueca refleja, un pulso de dolor punzante en la corteza cerebral que distorsiona tu visión periférica mientras el combate continúa."
+      ],
+      "opciones": [
+        {
+          "texto": "Mantener la ofensiva a pesar del dolor",
+          "destino": "nodo_157"
+        },
+        {
+          "texto": "Retroceder hacia las líneas de Lein",
+          "destino": "nodo_158"
+        }
+      ]
+    },
+    "nodo_80": {
+      "titulo": "Retirada Evasiva",
+      "texto": [
+        "La trayectoria de impacto, una descarga de energía cinética pura, se desplaza a milímetros de tu chasis, dejando un rastro de ozono ionizado en el aire. Logras pivotar sobre tu eje central para eludir la embestida, pero el impulso cinético te proyecta hacia atrás. Tu espalda colisiona con violencia contra un pilar de carga; la estructura masiva vibra bajo el impacto, emitiendo un zumbido sordo de baja frecuencia que recorre toda la columna vertebral de la instalación. Estás acorralado: ante ti, la amenaza ajusta sus sensores de búsqueda, sellando tu única ruta de escape frontal."
+      ],
+      "opciones": [
+        {
+          "texto": "Escalar el pilar usando los relieves",
+          "destino": "nodo_159"
+        },
+        {
+          "texto": "Deslizarte entre las piernas del constructo",
+          "destino": "nodo_160"
+        }
+      ]
+    },
+    "nodo_81": {
+      "titulo": "Núcleos Desmantelados",
+      "texto": [
+        "El desmantelamiento de los núcleos de potencia ha provocado una catástrofe sistémica en la fisiología sintética de los atacantes. Con un crujido metálico que parece un lamento final, la energía residual se disipa en chispas erráticas y estáticas azules. Las criaturas, despojadas de su fuerza motriz y de la voluntad algorítmica que las animaba, colapsan instantáneamente, desplomándose sobre el pavimento en un amasijo informe de engranajes inertes, pistones sin presión y cableado exánime que apenas emite un débil calor residual."
+      ],
+      "opciones": [
+        {
+          "texto": "Recolectar el silicio gris utilizable",
+          "destino": "nodo_161"
+        },
+        {
+          "texto": "Reunirte con Marbo para el informe",
+          "destino": "nodo_162"
+        }
+      ]
+    },
+    "nodo_82": {
+      "titulo": "Fuga Exitosa",
+      "texto": [
+        "Te deslizas por las entrañas de la estructura, reptando por un conducto de ventilación secundario cuyas paredes de metal galvanizado retienen aún el vaho de la actividad industrial reciente. La fricción de tu armadura contra el acero corrugado suena como un susurro metálico en la oscuridad. Poco a poco, el ensordecedor zumbido de los sistemas de ventilación primaria se desvanece, siendo reemplazado por un silencio absoluto y clínico, propio de las zonas muertas de la instalación donde la entropía comienza a reclamar su terreno."
+      ],
+      "opciones": [
+        {
+          "texto": "Investigar un eco analógico cercano",
+          "destino": "nodo_163"
+        },
+        {
+          "texto": "Regresar al campamento principal",
+          "destino": "nodo_164"
+        }
+      ]
+    },
+    "nodo_83": {
+      "titulo": "Plataforma Intermedia",
+      "texto": [
+        "La caída, aunque controlada, termina con una desaceleración violenta. Aterrizas bruscamente sobre una rejilla de hierro cuya superficie está cubierta por escamas de óxido anaranjado que se desprenden bajo tu peso. El impacto sobrecarga tus sensores propioceptivos; tus actuadores menores, desgastados por la fatiga de combate, emiten una serie de quejas audibles, un chirrido agudo de metal contra metal que delata el agotamiento de tus lubricantes y la necesidad imperativa de un mantenimiento de emergencia."
+      ],
+      "opciones": [
+        {
+          "texto": "Buscar una salida hacia el cañón",
+          "destino": "nodo_165"
+        },
+        {
+          "texto": "Reparar tus sistemas con chatarra",
+          "destino": "nodo_166"
+        }
+      ]
+    },
+    "nodo_84": {
+      "titulo": "Ascenso Forzado",
+      "texto": [
+        "La ascensión exige un esfuerzo hidráulico extremo. Tus músculos sintéticos se tensan hasta el umbral del desgarro, con los servos emitiendo un silbido de alta presión que delata una sobrecarga en los núcleos energéticos. Cada fibra de carbono de tu estructura parece protestar ante la gravedad, pero la insistencia de tus protocolos de supervivencia prevalece sobre el dolor mecánico. Finalmente, tras un último impulso, tus garras encuentran agarre en el borde de la plataforma, permitiéndote izarte hacia las pasarelas superiores de Orod, donde el aire es más frío y está viciado por el polvo de la industria olvidada."
+      ],
+      "opciones": [
+        {
+          "texto": "Buscar la posición de Bashole",
+          "destino": "nodo_167"
+        },
+        {
+          "texto": "Inspeccionar las compuertas de filtrado",
+          "destino": "nodo_168"
+        }
+      ]
+    },
+    "nodo_85": {
+      "titulo": "Filtro Natural de Humedad",
+      "texto": [
+        "En el recoveco de una tubería de conducción de vapor, localizas una junta sellante que ha cedido debido a la presión constante. De ella emana una gota lenta y rítmica de líquido cristalino. Tras un escaneo espectral, confirmas que se trata de agua pura, condensada por el diferencial térmico y milagrosamente libre de las trazas tóxicas de hidrocarburos pesados que saturan el resto del complejo. Es un recurso vital en un entorno donde la pureza es una moneda de cambio inexistente."
+      ],
+      "opciones": [
+        {
+          "texto": "Limpiar tus heridas y recuperar energía",
+          "destino": "nodo_169"
+        },
+        {
+          "texto": "Llenar un contenedor para el hospital",
+          "destino": "nodo_170"
+        }
+      ]
+    },
+    "nodo_86": {
+      "titulo": "Corrosión Cutánea",
+      "texto": [
+        "El agente químico, una sustancia corrosiva de pH extremo, ha penetrado las capas externas de tu integridad defensiva. Lo que comenzó como una sensación de ardor térmico se ha degradado rápidamente en una serie de ampollas químicas que supuran un líquido viscoso e irritante. Tu unidad de procesamiento central detecta una degradación funcional severa: la articulación principal ha quedado comprometida, reduciendo tu capacidad de desplazamiento y maniobrabilidad en un veinte por ciento. La marcha se vuelve penosa, un recordatorio constante de tu vulnerabilidad ante la toxicidad ambiental."
+      ],
+      "opciones": [
+        {
+          "texto": "Buscar la asistencia de Lein",
+          "destino": "nodo_171"
+        },
+        {
+          "texto": "Forzar la marcha hacia el norte",
+          "destino": "nodo_172"
+        }
+      ]
+    },
+    "nodo_87": {
+      "titulo": "El Puente de Servicio",
+      "texto": [
+        "El puente se extiende como una espina dorsal metálica, estrecha y carente de barandillas, suspendido sobre una grieta geológica que los operarios llamaban el abismo térmico. Desde la profundidad, emanan columnas de vapores sulfurosos que tiñen el aire de un matiz amarillento y acre. El metal bajo tus pies, debilitado por décadas de oxidación, cruje con cada movimiento, advirtiendo que el soporte estructural podría ceder en cualquier momento bajo el peso de un paso en falso."
+      ],
+      "opciones": [
+        {
+          "texto": "Cruzar de uno en uno con cautela",
+          "destino": "nodo_173"
+        },
+        {
+          "texto": "Forzar un cruce rápido del convoy",
+          "destino": "nodo_174"
+        }
+      ]
+    },
+    "nodo_88": {
+      "titulo": "Barricada de Chatarra",
+      "texto": [
+        "Has apilado restos de maquinaria y blindajes desechados, creando una fortificación improvisada que ha logrado contener la segunda oleada de hostiles. Sin embargo, el esfuerzo defensivo no ha pasado desapercibido; el ruido metálico del impacto y la estática generada por las armas han reverberado a través de los conductos, actuando como una señal de reclamo. En la penumbra, una vibración telúrica anuncia la llegada de una entidad colosal, un espécimen diseñado para la demolición total que ahora avanza hacia tu posición con una determinación ciega."
+      ],
+      "opciones": [
+        {
+          "texto": "Ordenar una retirada táctica inmediata",
+          "destino": "nodo_175"
+        },
+        {
+          "texto": "Mantener la posición con el mandoble",
+          "destino": "nodo_176"
+        }
+      ]
+    },
+    "nodo_89": {
+      "titulo": "La Dosis Administrada",
+      "texto": [
+        "El compuesto sintético se difunde rápidamente por el torrente circulatorio de Bashole, anulando la actividad eléctrica anómala que convulsionaba sus terminaciones nerviosas. A medida que el opio sintético bloquea los receptores de dolor, los espasmos incontrolables que impedían su coordinación motriz cesan de forma gradual. Sus manos, anteriormente tensas y garras inútiles, recuperan la estabilidad necesaria para sujetar su armamento; la rigidez antinatural se disipa, dejando paso a una funcionalidad renovada, aunque el precio de esta lucidez sea la atenuación de sus sentidos periféricos."
+      ],
+      "opciones": [
+        {
+          "texto": "Ordenar el fuego cruzado defensivo",
+          "destino": "nodo_177"
+        },
+        {
+          "texto": "Avanzar hacia las Tierras Medias",
+          "destino": "nodo_178"
+        }
+      ]
+    },
+    "nodo_90": {
+      "titulo": "Línea de Tiro Improvisada",
+      "texto": [
+        "La empuñadura del arco se siente ajena y cruda contra tu palma, una extensión inanimada de madera muerta que no logras comprender. Intentas emular la estática y gélida disciplina mineral de Bashole, esa capacidad sobrehumana de convertir los huesos en un trípode inamovible, pero el instinto te traiciona. La tensión de la cuerda hace vibrar tu brazo, revelando una carencia orgánica de alineación. El proyectil abandona el reposo con una parábola errática; falla por unos milímetros irrisorios, impactando contra el muro con un chasquido hueco, recordándote la distancia abismal que separa la intención de la ejecución física."
+      ],
+      "opciones": [
+        {
+          "texto": "Reintentar el tiro ajustando la inercia",
+          "destino": "nodo_179"
+        },
+        {
+          "texto": "Ceder el arco a un soldado veterano",
+          "destino": "nodo_180"
+        }
+      ]
+    },
+    "nodo_91": {
+      "titulo": "El Taller Kaftak Abandonado",
+      "texto": [
+        "El habitáculo huele a ozono oxidado y a la amarga descomposición de los lubricantes sintéticos. Entre los estratos de escoria industrial y los detritos acumulados por décadas de abandono, tus dedos encuentran, casi por azar, un conjunto de herramientas de calibración cuya precisión parece desafiar la entropía reinante. Son instrumentos de una manufactura Kaftak pre-colapso, diseñados para micras y tolerancias imposibles. Junto a ellos, diversos componentes encapsulados en resina inerte aguardan, ocultos bajo el manto de polvo tóxico, esperando una finalidad que el tiempo no ha logrado erradicar."
+      ],
+      "opciones": [
+        {
+          "texto": "Utilizar las herramientas para reparar a Dastael",
+          "destino": "nodo_181"
+        },
+        {
+          "texto": "Guardar los componentes para el Cristal",
+          "destino": "nodo_182"
+        }
+      ]
+    },
+    "nodo_92": {
+      "titulo": "Regreso a las Filas",
+      "texto": [
+        "Te reintegras a la cadencia mecánica de la columna, un organismo de metal y fatiga que serpentea por el páramo. El ambiente, cargado de una densa bruma de hidrocarburos pesados que suele nublar la vista, se disipa súbitamente ante una corriente térmica, revelando lo que subyace al horizonte. No es paisaje, sino una anomalía visual de geometría fracturada, un fenómeno que desafía la percepción espacial y que sugiere que la realidad en este sector ha sido alterada por fuerzas que escapan a cualquier lógica conocida por los supervivientes."
+      ],
+      "opciones": [
+        {
+          "texto": "Observar la línea de horizonte lejano",
+          "destino": "nodo_183"
+        },
+        {
+          "texto": "Ignorar el paisaje y mantener la cabeza baja",
+          "destino": "nodo_184"
+        }
+      ]
+    },
+    "nodo_93": {
+      "titulo": "Cruce Térmico",
+      "texto": [
+        "La tubería de transporte principal emite un zumbido agónico, una vena industrial de acero sobrecalentado que escupe vapores cáusticos. El calor radia desde el metal hacia las suelas de tus botas, degradando el polímero hasta casi fundirlo con el suelo. Cada paso es un ejercicio de supervivencia contra la termodinámica. Con los pulmones ardiendo por la inhalación de partículas suspendidas, logras alcanzar el extremo opuesto del cañón de chatarra, dejando atrás un abismo de engranajes retorcidos donde la vida parece una anomalía estadística."
+      ],
+      "opciones": [
+        {
+          "texto": "Reunirte con el grupo en el puente",
+          "destino": "nodo_185"
+        },
+        {
+          "texto": "Explorar un almacén de herramientas secundario",
+          "destino": "nodo_186"
+        }
+      ]
+    },
+    "nodo_94": {
+      "titulo": "El Túnel de Drenaje inferior",
+      "texto": [
+        "La atmósfera en el subsuelo es opresiva, saturada por una humedad viscosa que transforma la tierra en un lodo negro y tenaz. Tus pies se hunden en esta suspensión de desechos, dificultando cualquier avance. En la penumbra, apenas iluminada por la fosforescencia de ciertos hongos industriales, adviertes los restos de una patrulla militar de Orod. Sus armaduras, otrora símbolos de una soberanía absoluta, descansan ahora como cáscaras vacías, integradas en la inmundicia del túnel, silenciosos testimonios de una derrota que nadie se tomó la molestia de registrar."
+      ],
+      "opciones": [
+        {
+          "texto": "Despojar los cadáveres en busca de munición",
+          "destino": "nodo_187"
+        },
+        {
+          "texto": "Continuar sin profanar los restos",
+          "destino": "nodo_188"
+        }
+      ]
+    },
+    "nodo_95": {
+      "titulo": "Botica Saqueada",
+      "texto": [
+        "El establecimiento ha sido desmantelado metódicamente por manos desesperadas, dejando tras de sí una estela de estanterías vacías y cristalería hecha añicos. Entre los escombros de la estirilidad, descubres un único frasco de latón, sellado herméticamente, que contiene extracto de opio puro. El peso del objeto en tu mano es una promesa de alivio o de olvido. Decides protegerlo con absoluta meticulosidad; en un mundo privado de anestesia, este remanente alquímico posee un valor que trasciende con creces el de cualquier divisa convencional."
+      ],
+      "opciones": [
+        {
+          "texto": "Llevarlo de vuelta al campamento",
+          "destino": "nodo_189"
+        },
+        {
+          "texto": "Consumir una microdosis para tu migraña",
+          "destino": "nodo_190"
+        }
+      ]
+    },
+    "nodo_96": {
+      "titulo": "Últimas Palabras del Vigía",
+      "texto": [
+        "El vigía colapsa, su estructura sintética crujiendo en una disonancia de chispas y metal vencido. Antes de que el brillo de sus sensores ópticos se extinga por completo en un fallo de sistema definitivo, susurra una sentencia que parece flotar en el aire estancado: 'El Administrador del Silencio nos observa desde el cielo curvo'. Sus palabras, despojadas de toda intención teológica, resuenan con la frialdad de un diagnóstico fatalista, sugiriendo que la vigilancia a la que están sometidos no es humana, sino una vigilancia absoluta, matemática y desapasionada."
+      ],
+      "opciones": [
+        {
+          "texto": "Registrar el perímetro en busca de sensores",
+          "destino": "nodo_191"
+        },
+        {
+          "texto": "Reincorporarte al éxodo general",
+          "destino": "nodo_192"
+        }
+      ]
+    },
+    "nodo_97": {
+      "titulo": "Vanguardia de la Marcha",
+      "texto": [
+        "Dastael avanza marcando el paso con una regularidad inquietante, similar al latido de un metrónomo cuya cuerda nunca se agota. Su marcha es un recordatorio de la disciplina necesaria para sobrevivir al páramo. Un viento supersónico, provocado por las inestables presiones atmosféricas de la zona, barre el sector, arrastrando consigo la toxicidad gaseosa y purificando temporalmente el aire. Esta claridad repentina permite observar, con una nitidez casi dolorosa, la desolación de los pilares estructurales que sostienen lo que queda del firmamento artificial."
+      ],
+      "opciones": [
+        {
+          "texto": "Mirar hacia el firmamento artificial",
+          "destino": "nodo_193"
+        },
+        {
+          "texto": "Mantener la formación cerrada de escudos",
+          "destino": "nodo_194"
+        }
+      ]
+    },
+    "nodo_98": {
+      "titulo": "Retaguardia en Alerta",
+      "texto": [
+        "Marbo permanece absorto, con la vista fija en la consola de datos que sostiene entre sus manos enguantadas. La luz azulada de la pantalla proyecta sombras angulosas sobre su rostro demacrado. Tras procesar una serie de lecturas gravimétricas, sus labios se curvan en una mueca de incredulidad. 'La curvatura se invierte hacia arriba', murmura, como si el espacio mismo estuviera intentando escapar de la superficie de este mundo. Sus palabras, técnicas y precisas, anuncian una inestabilidad que podría desmoronar los cimientos de la marcha en cualquier instante."
+      ],
+      "opciones": [
+        {
+          "texto": "Analizar la geometría traicionera",
+          "destino": "nodo_195"
+        },
+        {
+          "texto": "Acelerar el paso de los desahuciados",
+          "destino": "nodo_196"
+        }
+      ]
+    },
+    "nodo_99": {
+      "titulo": "Aligerar el Convoy",
+      "texto": [
+        "La fricción de la marcha sobre terreno inestable ha alcanzado un punto crítico. Tras un breve debate de supervivencia, proceden al descarte sistemático de la chatarra pesada: placas de blindaje, engranajes auxiliares y estructuras de soporte que se abandonan en el lodo. El convoy recupera cierta agilidad, permitiendo a los bueyes de carga avanzar sin el lastre de la inercia, pero la sensación de vulnerabilidad es absoluta. La eliminación del blindaje crítico deja a los supervivientes expuestos, convertidos en una presa fácil para cualquier variable hostil que aceche en las proximidades."
+      ],
+      "opciones": [
+        {
+          "texto": "Adentrarte en el Pantano Central",
+          "destino": "nodo_197"
+        },
+        {
+          "texto": "Buscar un desvío por las Placas de Fundamento",
+          "destino": "nodo_198"
+        }
+      ]
+    },
+    "nodo_100": {
+      "titulo": "Extracción del Carro",
+      "texto": [
+        "Los tendones de Dastael se tensan hasta el límite de la ruptura biológica, marcando venas oscuras bajo su piel curtida mientras ejerce una presión titánica contra el chasis retorcido. El hierro gime, una queja metálica que resuena en la oquedad del terreno, mientras tú, con movimientos precisos y desprovistos de vacilación, deslizas las cuñas de acero forjado bajo la estructura levantada. El peso es una presencia tangible, una gravedad que busca reclamar el vehículo hacia las entrañas del suelo; al encajar las cuñas, el chasquido del metal contra el metal sella una victoria temporal contra el colapso inminente."
+      ],
+      "opciones": [
+        {
+          "texto": "Fijar el carro y reanudar la travesía",
+          "destino": "nodo_199"
+        },
+        {
+          "texto": "Inspeccionar la placa inferior revelada",
+          "destino": "nodo_200"
+        }
+      ]
+    },
+    "nodo_101": {
+      "titulo": "Sacrificio Térmico",
+      "texto": [
+        "La transferencia de energía biológica se torna un proceso agónico; sientes cómo tus propios pulmones comienzan a contraerse por pura simpatía, un reflejo automático hacia la asfixia del otro que se manifiesta como una punzada de hielo en el diafragma. La insensibilidad, un entumecimiento gris y aséptico, asciende lentamente por tus brazos, devorando la sensibilidad de tus dedos hasta convertirlos en apéndices ajenos, herramientas de carne que apenas obedecen a tu voluntad mientras la temperatura interna cae en picado hacia el cero absoluto."
+      ],
+      "opciones": [
+        {
+          "texto": "Mantener el contacto curativo",
+          "destino": "final_empatia"
+        },
+        {
+          "texto": "Romper el lazo y buscar refugio",
+          "destino": "nodo_14"
+        }
+      ]
+    },
+    "nodo_102": {
+      "titulo": "Manta Aislante",
+      "texto": [
+        "La lona industrial, impregnada de polímeros sintéticos y rugosa al tacto, desciende sobre la anciana como una mortaja de supervivencia. El material comienza a sellar el intercambio térmico de forma inmediata, estabilizando sus constantes vitales sin obligarte a drenar tu reserva de energía bioeléctrica. Es un pragmatismo frío y eficiente; mientras su respiración se acompasa bajo el tejido aislante, tú permaneces como un espectador observador, preservando tus propios recursos para el desgaste inevitable que aguarda en los próximos sectores de la ruta."
+      ],
+      "opciones": [
+        {
+          "texto": "Continuar con el convoy militar",
+          "destino": "nodo_71"
+        },
+        {
+          "texto": "Reportar la situación a Lein",
+          "destino": "nodo_2"
+        }
+      ]
+    },
+    "nodo_103": {
+      "titulo": "Extractores Activos",
+      "texto": [
+        "El siseo agudo de las válvulas de alivio rompe la opresión del aire estancado, un murmullo industrial que precede a la purga de los gases acumulados. El humo de hidrocarburo, denso y amarillento, es succionado hacia los conductos de ventilación con una violencia mecánica, disipando la bruma tóxica que hasta hace segundos ocultaba la arquitectura del sector. La visibilidad se restaura en un gradiente de claridad; el entorno se vuelve nítido, revelando sombras, recovecos y la desolada geometría de la estructura ahora expuesta a tu escrutinio."
+      ],
+      "opciones": [
+        {
+          "texto": "Revisar los mapas de Marbo",
+          "destino": "nodo_27"
+        },
+        {
+          "texto": "Volver a la pasarela exterior",
+          "destino": "nodo_34"
+        }
+      ]
+    },
+    "nodo_104": {
+      "titulo": "Contención de Vapor",
+      "texto": [
+        "La presión interna ha superado los umbrales de seguridad, convirtiendo el conducto en un polvorín de energía cinética contenida. Las junturas, construidas originalmente con tejo podrido por la escasez de metales nobles, comienzan a crujir con una cadencia alarmante, deformándose bajo la fuerza expansiva del vapor. Cada crujido es una sentencia; el aire en la sala se ha vuelto irrespirable, saturado de un calor húmedo y metálico que anticipa una ruptura catastrófica en la integridad de la maquinaria."
+      ],
+      "opciones": [
+        {
+          "texto": "Liberar la presión de emergencia",
+          "destino": "nodo_33"
+        },
+        {
+          "texto": "Soportar el estrépito estructural",
+          "destino": "nodo_7"
+        }
+      ]
+    },
+    "nodo_105": {
+      "titulo": "La Fe de la Chatarra",
+      "texto": [
+        "Lein recibe el icono con una reverencia mecánica; sus dedos, surcados por cicatrices y depósitos de grasa industrial, acarician la superficie del objeto como si fuera una reliquia sagrada en un mundo de desecho. Al entrar en contacto con el metal frío, una chispa de resolución moral atraviesa su mirada, transformando la desesperación en un imperativo ético. La fragilidad de su estado anterior se desvanece, reemplazada por una determinación sobria, casi gélida, ante la responsabilidad que ahora pesa sobre sus hombros."
+      ],
+      "opciones": [
+        {
+          "texto": "Guiar la Espiritualidad Gris del grupo",
+          "destino": "nodo_12"
+        },
+        {
+          "texto": "Preparar las defensas del santuario",
+          "destino": "nodo_57"
+        }
+      ]
+    },
+    "nodo_106": {
+      "titulo": "Uso Pragmático",
+      "texto": [
+        "Con una frialdad quirúrgica, el icono sagrado —despojado de todo significado espiritual— es insertado en la ranura del eje fracturado, encajando con una precisión milimétrica que ignora la sacralidad del objeto. La estructura militar, anteriormente inútil y ladeada, recupera una línea de tensión equilibrada bajo el peso del bastidor. La maquinaria acepta la improvisación técnica, estabilizándose con un sordo golpe seco. El icono ya no es un símbolo de fe, sino un componente estructural, un simple trozo de metal que permite que el convoy retome su marcha hacia la decadencia."
+      ],
+      "opciones": [
+        {
+          "texto": "Reanudar la marcha hacia la Falla",
+          "destino": "nodo_71"
+        },
+        {
+          "texto": "Guardar el resto del metal útil",
+          "destino": "nodo_72"
+        }
+      ]
+    },
+    "nodo_107": {
+      "titulo": "Retorno al Deber",
+      "texto": [
+        "Tus manos, curtidas por décadas de rozamiento con el metal y la fricción de los engranajes, se mueven con una destreza desprovista de emoción. Vendas la carne viva, una superficie ulcerada y corrompida por la infiltración sistémica de aceite industrial que ha comenzado a reemplazar la sangre de la víctima. Es un trabajo de mantenimiento, no de sanación; una reparación de tejido biológico que se deshace bajo la presión de un entorno diseñado para la corrosión y el desgaste constante."
+      ],
+      "opciones": [
+        {
+          "texto": "Ayudar a Lein en el siguiente nodo",
+          "destino": "nodo_11"
+        },
+        {
+          "texto": "Buscar a Marbo para coordinar recursos",
+          "destino": "nodo_13"
+        }
+      ]
+    },
+    "nodo_108": {
+      "titulo": "Pausa Fatal",
+      "texto": [
+        "El agotamiento vence a tu arquitectura biológica; por un microsegundo, la consciencia se disipa y te sumerges en una oscuridad absoluta. El silencio es interrumpido por el chirrido eléctrico de los paneles superiores, una descarga que, al atravesar tu córtex, borra fragmentos enteros de tu memoria caché, dejando lagunas de información técnica y recuerdos de supervivencia que ya no podrás recuperar. Te despiertas con un vacío en el pensamiento, un glitch persistente que altera tu percepción de la realidad inmediata."
+      ],
+      "opciones": [
+        {
+          "texto": "Despertar desorientado y buscar ayuda",
+          "destino": "nodo_14"
+        },
+        {
+          "texto": "Forzar un reinicio neural doloroso",
+          "destino": "nodo_45"
+        }
+      ]
+    },
+    "nodo_109": {
+      "titulo": "Química de Control",
+      "texto": [
+        "La inyección del estabilizador inunda tu sistema, un cóctel sintético que barre la niebla de tu pensamiento pero que, como efecto secundario inevitable, desequilibra tus señales motoras. Un temblor fino y rítmico recorre tus falanges, una vibración latente que dificulta cualquier manipulación delicada. Tu mente está clara, centrada en los datos y la lógica, pero tu cuerpo se rebela, exigiendo un punto de apoyo para compensar la desincronización neuroquímica que ahora domina tus músculos."
+      ],
+      "opciones": [
+        {
+          "texto": "Apoyarte en el arco de Bashole",
+          "destino": "nodo_21"
+        },
+        {
+          "texto": "Continuar analizando los planos ferrosos",
+          "destino": "nodo_27"
+        }
+      ]
+    },
+    "nodo_110": {
+      "titulo": "Ceguera Lumínica",
+      "texto": [
+        "El espacio se disuelve en una estridencia óptica insoportable. Los diodos de descarga de alta frecuencia, incrustados en los paneles del techo, emiten destellos rítmicos que se clavan en la retina con una intensidad quirúrgica. Tu sistema nervioso central, incapaz de procesar el estroboscopio constante, intenta cerrar los párpados por instinto de supervivencia, pero la luz parece penetrar incluso a través de la piel fina de los ojos, provocando una sobrecarga sensorial que desorienta tu equilibrio y disuelve el entorno en un vacío de estática blanca."
+      ],
+      "opciones": [
+        {
+          "texto": "Cerrar los ojos y guiarte por el oído",
+          "destino": "nodo_29"
+        },
+        {
+          "texto": "Usar el cristal polarizado de Dastael",
+          "destino": "nodo_8"
+        }
+      ]
+    },
+    "nodo_111": {
+      "titulo": "Despliegue del Éxodo",
+      "texto": [
+        "La marcha prosigue a través de los corredores mecánicos, un laberinto de acero corroido donde la arquitectura parece respirar con un jadeo metálico y agónico. La atmósfera es densa, viciada por milenios de estancamiento, y posee un sabor metálico y amargo a salitre que se adhiere a la garganta. Cada paso resuena con una cualidad hueca, recordándote que bajo estas estructuras no existe nada más que la nada tectónica y los residuos de una civilización que se desmoronó sobre sus propios cimientos."
+      ],
+      "opciones": [
+        {
+          "texto": "Cruzar el pantano de lodo aceitoso",
+          "destino": "nodo_73"
+        },
+        {
+          "texto": "Seguir la ruta de las vigas altas",
+          "destino": "nodo_59"
+        }
+      ]
+    },
+    "nodo_112": {
+      "titulo": "Auditoría Externa",
+      "texto": [
+        "Los barómetros integrados en la armadura oscilan de forma errática, confirmando una fluctuación salvaje en la presión atmosférica del exterior que amenaza con comprometer la integridad de los sellos hidráulicos. En el campo de visión, las pantallas proyectan cascadas de alertas rojas en parpadeo constante, indicadores de un fallo sistémico inminente. El entorno, hostil y fluctuante, ejerce un estrés mecánico sobre el exoesqueleto que se traduce en un lamento constante de actuadores forzados y juntas de goma chirriando ante la diferencia de presiones."
+      ],
+      "opciones": [
+        {
+          "texto": "Modificar la velocidad de la marcha",
+          "destino": "nodo_97"
+        },
+        {
+          "texto": "Buscar un túnel de contención intermedio",
+          "destino": "nodo_63"
+        }
+      ]
+    },
+    "nodo_113": {
+      "titulo": "El Fin en el Silo",
+      "texto": [
+        "La estructura gime bajo un peso insoportable; la hidrostática del exterior ha superado finalmente los coeficientes de seguridad del silo. Las compuertas reforzadas, diseñadas para resistir el tiempo y el impacto, ceden con un alarido de metal retorcido. Una masa viscosa de lodo negro, cargada con restos minerales y sedimento tóxico, irrumpe en la cámara con la fuerza de una marea imparable, sofocando cada rincón del búnker y eliminando cualquier rastro de oxígeno y esperanza bajo una presión asfixiante y absoluta."
+      ],
+      "opciones": [
+        {
+          "texto": "Aceptar el fallo del sistema",
+          "destino": "final_asfixia"
+        }
+      ]
+    },
+    "nodo_114": {
+      "titulo": "Exploración de Vanguardia",
+      "texto": [
+        "Tus sensores de largo alcance detectan una anomalía: un grupo de Cristalizados del Ruido se desplaza por el horizonte. Sus movimientos carecen de toda lógica biológica; avanzan en una cinemática fragmentada y errática, como fotogramas perdidos de una cinta de vídeo dañada. La forma en que sus extremidades de cuarzo refractan la escasa luz ambiente sugiere una desestabilización molecular latente, convirtiéndolos en depredadores abstractos capaces de colapsar la realidad circundante con cada espasmo de su existencia."
+      ],
+      "opciones": [
+        {
+          "texto": "Preparar una emboscada con Bashole",
+          "destino": "nodo_43"
+        },
+        {
+          "texto": "Retroceder en silencio hacia el hospital",
+          "destino": "nodo_5"
+        }
+      ]
+    },
+    "nodo_115": {
+      "titulo": "Posición Estática",
+      "texto": [
+        "El silencio es abruptamente interrumpido por el impacto de los constructos, máquinas de guerra desprovistas de voluntad que embisten tus defensas con una precisión ciega. La fricción genera una lluvia de chispas incandescentes; el metal colisiona contra el metal en un estruendo ensordecedor que hace vibrar tus huesos. La violencia del choque es física y emocionalmente agotadora, una lucha de desgaste donde el acero templado de tus barricadas es lo único que separa tu integridad biológica de la demolición total a manos de estas piezas de maquinaria autónoma."
+      ],
+      "opciones": [
+        {
+          "texto": "Ordenar a Dastael que resista el impacto",
+          "destino": "nodo_10"
+        },
+        {
+          "texto": "Usar el arco compuesto desde la retaguardia",
+          "destino": "nodo_21"
+        }
+      ]
+    },
+    "nodo_116": {
+      "titulo": "Ruta del Cristal de Kaftakon",
+      "texto": [
+        "Avanzas por un pasillo natural de chatarra pulida, donde los restos de tecnología antigua han sido erosionados hasta adquirir formas geométricas imposibles. A medida que profundizas, el suelo parece curvarse en una dirección anti-intuitiva, una curvatura invertida que desafía la percepción vestibular. El entorno distorsiona las distancias, creando una ilusión de perspectiva infinita donde cada metro avanzado parece alejarse del objetivo en lugar de acercarte a él, forzando a tu mente a cuestionar la geometría misma del espacio que habitas."
+      ],
+      "opciones": [
+        {
+          "texto": "Desafiar la auditoría visual",
+          "destino": "nodo_193"
+        },
+        {
+          "texto": "Mantener la concentración en el mapa analógico",
+          "destino": "nodo_91"
+        }
+      ]
+    },
+    "nodo_117": {
+      "titulo": "Laberinto de Desagües",
+      "texto": [
+        "Te adentras en las entrañas del complejo, donde la infraestructura de desechos ha colapsado bajo siglos de abandono. Los conductos están obstruidos por una masa compacta de residuos poliméricos, una pasta grisácea y grasienta que se ha solidificado con el paso del tiempo, exhalando un aroma rancio y nauseabundo que impregna el aire húmedo. El espacio es claustrofóbico, una red de túneles donde la única salida parece estar bloqueada por la propia escoria de un sistema que dejó de drenar hace incontables ciclos."
+      ],
+      "opciones": [
+        {
+          "texto": "Limpiar los conductos manualmente",
+          "destino": "nodo_3"
+        },
+        {
+          "texto": "Buscar una desviación por la falla tectónica",
+          "destino": "nodo_75"
+        }
+      ]
+    },
+    "nodo_118": {
+      "titulo": "Pasarela Suspendida",
+      "texto": [
+        "Tus pies se posan sobre vigas de hierro desnudo que cruzan el abismo. La estructura entera vibra con una frecuencia discordante, una nota baja y constante que parece alterar tu pulso cardíaco. Abajo, el vacío se extiende como una boca hambrienta; una negrura absoluta que no refleja luz alguna y donde la profundidad es incalculable. Cualquier error de cálculo en tu equilibrio no solo resultaría en una caída física, sino en una desaparición total dentro de las sombras que habitan las cavidades inferiores de esta arquitectura olvidada."
+      ],
+      "opciones": [
+        {
+          "texto": "Avanzar corriendo hacia el extremo norte",
+          "destino": "nodo_84"
+        },
+        {
+          "texto": "Descender con una cuerda de fibra sintética",
+          "destino": "nodo_41"
+        }
+      ]
+    },
+    "nodo_119": {
+      "titulo": "Escotilla de Mantenimiento",
+      "texto": [
+        "La escotilla de mantenimiento se alza ante ti, una barrera circular sellada por una capa gruesa de óxido corrosivo que se ha fundido con el marco metálico. El mecanismo de apertura es inútil frente a la erosión química, y la superficie parece sellada herméticamente por la misma oxidación que consume el complejo. El acceso a los niveles inferiores requiere algo más que fuerza bruta; la integridad del cierre demanda una herramienta de calibración de alta precisión, capaz de fracturar la unión molecular sin desencadenar un desplome estructural en toda la sección."
+      ],
+      "opciones": [
+        {
+          "texto": "Forzarla con el mandoble de Dastael",
+          "destino": "nodo_35"
+        },
+        {
+          "texto": "Buscar un taller Kaftak cercano",
+          "destino": "nodo_91"
+        }
+      ]
+    },
+    "nodo_120": {
+      "titulo": "Escudo Biológico",
+      "texto": [
+        "El vaho denso del aceite hirviente se adhiere a tu epidermis como una segunda piel cáustica, desintegrando tejido y provocando una cascada de señales dolorosas que martillean tu sistema nervioso central. Sin embargo, la inercia de tu cuerpo se impuso sobre la autoprotección; al interponerte, has rescatado a tres niños de la atomización térmica. Mientras los residuos oleosos se enfrían sobre tus hombros, dejando tras de sí una dermis carbonizada y ampollas translúcidas, la realidad de tu compromiso biológico pesa más que la propia necrosis de tus músculos."
+      ],
+      "opciones": [
+        {
+          "texto": "Solicitar el triaje urgente de Lein",
+          "destino": "nodo_11"
+        },
+        {
+          "texto": "Soportar el dolor con analgesia química",
+          "destino": "nodo_109"
+        }
+      ]
+    },
+    "nodo_121": {
+      "titulo": "Bloque C de Contención",
+      "texto": [
+        "El Bloque C se manifiesta como un vacío termodinámico, una estepa de metal galvanizado donde la entropía parece haberse detenido en un estado de letargo gélido. La atmósfera carece de cualquier rastro de vida orgánica, reducida a la estridencia metálica de las alarmas, cuyos ululatos cíclicos actúan como un metrónomo implacable, contabilizando los segundos que restan antes de que el proceso de extinción total se selle irrevocablemente tras los mamparos."
+      ],
+      "opciones": [
+        {
+          "texto": "Utilizar las briquetas de lodo para calentar",
+          "destino": "nodo_149"
+        },
+        {
+          "texto": "Buscar una salida hacia la llanura de óxido",
+          "destino": "nodo_61"
+        }
+      ]
+    },
+    "nodo_122": {
+      "titulo": "Firmas del Demiurgo",
+      "texto": [
+        "La yema de tus dedos recorre una superficie que desafía la geometría euclidiana, encontrando bajo la placa de metal inferior una red de incisiones microscópicas. Estas grabaciones, atribuidas al enigmático Azrriamoh, no son meros ornamentos, sino una secuencia lógica grabada en el sustrato del mundo. Cada trazo vibra con una resonancia matemática que sugiere la arquitectura oculta de esta realidad, una invitación a descifrar las instrucciones de un creador que ya no habita estos planos."
+      ],
+      "opciones": [
+        {
+          "texto": "Descifrar los códigos de la subestructura",
+          "destino": "nodo_182"
+        },
+        {
+          "texto": "Ignorar los grabados y avanzar hacia el Cristal",
+          "destino": "nodo_116"
+        }
+      ]
+    },
+    "nodo_123": {
+      "titulo": "Páramo Estéril de Hierro",
+      "texto": [
+        "Ante tus ojos se despliega un páramo de metal pulido, un espejo infinito que distorsiona la luz errática emanada del Techo. La superficie, carente de cualquier relieve biológico o accidente geológico que pueda ofrecer cobijo, se extiende como una herida abierta de acero. El silencio aquí no es ausencia de sonido, sino el peso absoluto del vacío existencial que despoja a los caminantes de cualquier esperanza de permanencia."
+      ],
+      "opciones": [
+        {
+          "texto": "Establecer una tienda de alta resistencia",
+          "destino": "nodo_76"
+        },
+        {
+          "texto": "Acelerar el paso de la columna desahuciada",
+          "destino": "nodo_196"
+        }
+      ]
+    },
+    "nodo_124": {
+      "titulo": "Celda de Energía Recuperada",
+      "texto": [
+        "Sostienes entre tus manos un artefacto que late con una frecuencia inquietante. La celda de energía se agita, liberando un fulgor violeta que parece devorar la penumbra circundante con una avidez atómica. Es un reservorio de potencial puro; una fuente de potencia cruda que, si es canalizada con precisión, podría transmutar la funcionalidad de tus herramientas de supervivencia o alimentar mecanismos de una complejidad superior."
+      ],
+      "opciones": [
+        {
+          "texto": "Integrarla en el arco compuesto de Bashole",
+          "destino": "nodo_70"
+        },
+        {
+          "texto": "Guardarla para la interfaz del Quinto Cristal",
+          "destino": "nodo_182"
+        }
+      ]
+    },
+    "nodo_125": {
+      "titulo": "Núcleo Neutralizado",
+      "texto": [
+        "Con la desactivación final del núcleo, el campo de fuerza que distorsionaba la gravedad y atraía la materia hacia este punto de singularidad se ha disipado en un susurro electromagnético. La calma resultante es absoluta, pero antinatural. Lentamente, la bruma tóxica —ese velo de partículas suspendidas que marca la decadencia de este sector— vuelve a reclamar su territorio, ocultando los horizontes bajo un sudario gris y opresivo."
+      ],
+      "opciones": [
+        {
+          "texto": "Volver a la ruta estándar de la falla",
+          "destino": "nodo_75"
+        },
+        {
+          "texto": "Revisar los carritos de suministros médicos",
+          "destino": "nodo_6"
+        }
+      ]
+    },
+    "nodo_126": {
+      "titulo": "Filtro de Carbón Activado",
+      "texto": [
+        "El mecanismo de filtrado, tras un forcejeo agónico, finalmente purga los subproductos de la atmósfera saturada. A medida que el aire comienza a circular a través del sistema, la pesadez tóxica que presionaba tus pulmones se disipa. La náusea, compañera inseparable de tus jornadas, cede ante un oxígeno más limpio, aunque el aire conserve ese regusto metálico y frío propio de los entornos industriales en proceso de muerte."
+      ],
+      "opciones": [
+        {
+          "texto": "Coordinar los mapas de evacuación con Marbo",
+          "destino": "nodo_27"
+        },
+        {
+          "texto": "Continuar hacia el desfiladero de chatarra",
+          "destino": "nodo_116"
+        }
+      ]
+    },
+    "nodo_127": {
+      "titulo": "Asfixia por Amoníaco",
+      "texto": [
+        "Las moléculas de amoníaco han penetrado tu barrera respiratoria, anclándose en la delicada arquitectura de tus alvéolos. Sientes un ardor corrosivo que se propaga con cada ciclo de inhalación, una señal de alarma biológica que indica que tu capacidad de intercambio gaseoso está colapsando. La hipoxia comienza a difuminar los bordes de tu percepción, dejando claro que sin intervención, el fallo sistémico es inminente."
+      ],
+      "opciones": [
+        {
+          "texto": "Buscar de inmediato el cuidado de Lein",
+          "destino": "nodo_5"
+        },
+        {
+          "texto": "Inyectarte un estabilizador de emergencia",
+          "destino": "nodo_109"
+        }
+      ]
+    },
+    "nodo_128": {
+      "titulo": "Reunión del Contingente",
+      "texto": [
+        "Marbo observa los datos de telemetría con una frialdad matemática que apenas logra disimular la tensión en sus comisuras. La presión atmosférica de Tairra fluctúa con una voluntad caprichosa, dejando poco margen para la improvisación humana. Con un gesto seco, lanza la advertencia: la lógica del planeta no contempla la misericordia ni los retrasos; si no se actúa ahora, la física del entorno dictará una sentencia definitiva para todo el contingente."
+      ],
+      "opciones": [
+        {
+          "texto": "Autorizar la Marcha de los Desahuciados",
+          "destino": "nodo_65"
+        },
+        {
+          "texto": "Buscar refugio en las cámaras Kaftak",
+          "destino": "nodo_91"
+        }
+      ]
+    },
+    "nodo_129": {
+      "titulo": "Farmacopea de Emergencia",
+      "texto": [
+        "Entre el desorden de los suministros, localizas un analgésico sintético de grado militar. La sustancia, al ser introducida en tu flujo sanguíneo, actúa como un bloqueador de señales de alta eficacia; los latidos martilleantes en tus tímpanos se atenúan hasta desaparecer, transformando el entorno en un lugar extrañamente silencioso. Sin embargo, este alivio tiene un coste cognitivo: la nitidez de tu percepción auditiva se embota, filtrando la realidad a través de una densa capa de entumecimiento sensorial."
+      ],
+      "opciones": [
+        {
+          "texto": "Volver a patrullar con Bashole",
+          "destino": "nodo_34"
+        },
+        {
+          "texto": "Ayudar a empujar los carros militares",
+          "destino": "nodo_49"
+        }
+      ]
+    },
+    "nodo_130": {
+      "titulo": "Tránsito del Pantano Central",
+      "texto": [
+        "La superficie del Pantano Central no es tierra, sino una emulsión viscosa y traicionera. La masa de lodo grisáceo, cargada de sedimentos metálicos y desechos industriales, succiona con implacable voracidad cada paso que intentas dar, desafiando la integridad de tus articulaciones. La visibilidad es prácticamente nula, reducida a un horizonte lechoso y denso donde el aire se siente saturado de micropartículas en suspensión; el mundo parece haber sido devorado por una bruma estática que anula toda referencia espacial, dejándote a merced de una geografía que cambia bajo tus pies."
+      ],
+      "opciones": [
+        {
+          "texto": "Seguir el rastro del humo de hidrocarburo",
+          "destino": "nodo_149"
+        },
+        {
+          "texto": "Guiarte exclusivamente por el astrolabio",
+          "destino": "nodo_147"
+        }
+      ]
+    },
+    "nodo_131": {
+      "titulo": "Ajuste del Tensor",
+      "texto": [
+        "La fibra sintética de compuesto óseo vibra al ser tensada, emitiendo un zumbido agudo que delata su inmensa energía potencial almacenada. Bashole supervisa el proceso con ojos inexpresivos; sus manos, curtidas por el trabajo pesado, verifican la integridad del mecanismo de sujeción. Al encajar la cuerda con un chasquido metálico, Bashole asiente con la cabeza con una parsimonia mecánica, confirmando que la estructura está lista para soportar la presión del inminente impacto."
+      ],
+      "opciones": [
+        {
+          "texto": "Adoptar posición de defensa perimetral",
+          "destino": "nodo_43"
+        },
+        {
+          "texto": "Avanzar a la vanguardia de la evacuación",
+          "destino": "nodo_97"
+        }
+      ]
+    },
+    "nodo_132": {
+      "titulo": "Refuerzo Fútil",
+      "texto": [
+        "La corrosión es un proceso silencioso y absoluto. El hierro de cimiento, diseñado para resistir cargas estáticas inmensas, se desmorona en escamas quebradizas bajo el ataque químico del salitre que impregna la atmósfera. La integridad estructural se pierde en cuestión de segundos, convirtiendo tus esfuerzos de fortificación en un montón de escombros inútiles. La realidad se impone: el tiempo invertido en este bastión ha sido una apuesta perdida contra la entropía del entorno."
+      ],
+      "opciones": [
+        {
+          "texto": "Ordenar la retirada inmediata hacia la Falla",
+          "destino": "nodo_65"
+        },
+        {
+          "texto": "Mantener la trinchera a cualquier precio",
+          "destino": "nodo_115"
+        }
+      ]
+    },
+    "nodo_133": {
+      "titulo": "Mampara Protectora",
+      "texto": [
+        "La mampara de aleación pesada vibra violentamente al recibir el impacto de las explosiones de vapor; el estruendo es ensordecedor, una cacofonía de presión liberada que hace retemblar tus propios huesos. La chapa ha cumplido su propósito técnico, resistiendo la deflagración con éxito, pero la estructura ha quedado deformada por el calor, sellando las salidas y dejándote en una burbuja de silencio relativo, una tumba hermética donde la soledad se vuelve una presencia física y opresiva."
+      ],
+      "opciones": [
+        {
+          "texto": "Buscar una salida trasera abriendo conductos",
+          "destino": "nodo_82"
+        },
+        {
+          "texto": "Esperar a que baje la marea de lodo",
+          "destino": "nodo_4"
+        }
+      ]
+    },
+    "nodo_134": {
+      "titulo": "Carrera en el Vacío",
+      "texto": [
+        "Tus pulmones arden ante el esfuerzo físico mientras atraviesas el umbral del sector residencial de Orod, una zona que apenas segundos después se sume en un colapso total. El apagón sistémico cae como un velo de plomo sobre la arquitectura, dejando al sector inmerso en una oscuridad absoluta y gélida. Has ganado la carrera contra el reloj, pero el costo de este refugio temporal es la parálisis absoluta de toda la infraestructura vital que te rodeaba."
+      ],
+      "opciones": [
+        {
+          "texto": "Buscar a Lein en el hospital de campaña",
+          "destino": "nodo_2"
+        },
+        {
+          "texto": "Reunirte con Marbo en el cuartel general",
+          "destino": "nodo_32"
+        }
+      ]
+    },
+    "nodo_135": {
+      "titulo": "Liberación Manual",
+      "texto": [
+        "La fricción es brutal; las fibras de polímero son resistentes, casi vivas en su capacidad de resistirse al filo de tu hoja. Con cada corte, la cuchilla resbala y muerde la piel de tus palmas, dejando surcos profundos que arden bajo la presión. Las cicatrices resultantes no son meras marcas de batalla, sino testigos permanentes de un esfuerzo físico llevado al límite biológico, un recordatorio indeleble de que la libertad siempre exige un tributo de carne y sangre."
+      ],
+      "opciones": [
+        {
+          "texto": "Avanzar hacia las escaleras de servicio",
+          "destino": "nodo_20"
+        },
+        {
+          "texto": "Buscar cobertura en los búnkeres bajos",
+          "destino": "nodo_56"
+        }
+      ]
+    },
+    "nodo_136": {
+      "titulo": "El Rescate del Gigante",
+      "texto": [
+        "La fuerza bruta de Dastael es un espectáculo aterrador de mecánica aplicada: cuando tensa su musculatura artificial, las amarras que lo aprisionaban estallan en mil fragmentos. El esfuerzo sobrecarga sus servomotores internos, provocando que los encajes de su armadura emitan un chirrido agónico, un lamento metálico de fatiga de materiales que resuena en toda la cámara. Está libre, pero el titán se tambalea, mostrando grietas en su invulnerabilidad."
+      ],
+      "opciones": [
+        {
+          "texto": "Inspeccionar los actuadores de su rodilla",
+          "destino": "nodo_18"
+        },
+        {
+          "texto": "Avanzar juntos hacia el frente sur",
+          "destino": "nodo_17"
+        }
+      ]
+    },
+    "nodo_137": {
+      "titulo": "Flechas Perforantes Forjadas",
+      "texto": [
+        "El hierro de cimiento, denso y oscuro, ha sido trabajado hasta alcanzar un filo capaz de ignorar la resistencia atmosférica del estrato inferior. Al ser disparadas, las flechas no silban, sino que desgarran el aire viciado con una precisión matemática. Su trayectoria es una línea recta, un vector de destrucción que se desplaza a través de la penumbra con una letalidad fría, diseñada específicamente para encontrar los puntos débiles en cualquier estructura u organismo que ose cruzarse en su camino."
+      ],
+      "opciones": [
+        {
+          "texto": "Repeler la vanguardia de los Cristalizados",
+          "destino": "nodo_43"
+        },
+        {
+          "texto": "Asegurar el angosto paso de servicio",
+          "destino": "nodo_87"
+        }
+      ]
+    },
+    "nodo_138": {
+      "titulo": "Preparación del Combustible",
+      "texto": [
+        "Tus dedos se hunden en los bloques de lodo destilado, una sustancia de consistencia cerosa que atrapa los hidrocarburos refinados de los pantanos. A medida que aplicas presión para comprimirlos en briquetas estables, el aire se satura con un aroma denso y penetrante: una mezcla nociva de residuos orgánicos descompuestos y el dulce recuerdo químico de una civilización que se extinguió consumiendo su propio legado."
+      ],
+      "opciones": [
+        {
+          "texto": "Encender las briquetas bajo la tienda",
+          "destino": "nodo_149"
+        },
+        {
+          "texto": "Almacenarlas en los carros de transporte",
+          "destino": "nodo_72"
+        }
+      ]
+    },
+    "nodo_139": {
+      "titulo": "Prueba de Trayectoria",
+      "texto": [
+        "El proyectil abandona el cañón en una estela de ignición química, surcando el aire estancado con una trayectoria balística que desafía las turbulencias del entorno. La energía liberada es exacta, casi clínica; un segundo después, el impacto golpea con la violencia de un martillo hidráulico, fracturando la viga lejana y provocando una lluvia de chispas y metal retorcido que cae en el vacío. La eficiencia del disparo es un testimonio del cálculo preciso, un momento de orden en medio del caos reinante."
+      ],
+      "opciones": [
+        {
+          "texto": "Mantener la posición de tiro en las pasarelas",
+          "destino": "nodo_84"
+        },
+        {
+          "texto": "Descender para unirte a la defensa de Dastael",
+          "destino": "nodo_10"
+        }
+      ]
+    },
+    "nodo_140": {
+      "titulo": "Disciplina Táctica",
+      "texto": [
+        "Con una deliberación casi quirúrgica, decides abstenerte de emplear los tensores de alta resistencia del arco de combate. La fatiga del metal es un factor determinante en la eficiencia balística, y preservarlos constituye una decisión táctica fría y necesaria ante la inminencia del enfrentamiento final en las cámaras del Quinto Cristal. La integridad de la fibra de carbono y el mecanismo de poleas debe mantenerse intacta para asegurar la letalidad absoluta cuando el entorno requiera un impacto de precisión milimétrica bajo condiciones de presión extrema."
+      ],
+      "opciones": [
+        {
+          "texto": "Avanzar por el laberinto de tuberías",
+          "destino": "nodo_93"
+        },
+        {
+          "texto": "Unirte a la columna de desahuciados",
+          "destino": "nodo_48"
+        }
+      ]
+    },
+    "nodo_141": {
+      "titulo": "Campamento Provisional Bajo la Falla",
+      "texto": [
+        "El espacio es hostil, una arquitectura de hormigón fracturado y vigas de acero oxidado que gimen bajo el peso tectónico de la Falla. Con una meticulosidad mecánica, aseguras las lonas industriales entre los intersticios de los colosales pilares de carga; la estructura se comporta como un refugio temporal, un enclave de supervivencia diseñado para minimizar la exposición a las corrientes de aire corrosivo que atraviesan los niveles inferiores de este abismo mecanizado."
+      ],
+      "opciones": [
+        {
+          "texto": "Raspar costras de musgo hidropónico",
+          "destino": "nodo_143"
+        },
+        {
+          "texto": "Organizar guardias armadas con Bashole",
+          "destino": "nodo_76"
+        }
+      ]
+    },
+    "nodo_142": {
+      "texto": [
+        "Una bruma densa, cargada de hidrocarburos volátiles y partículas de sílice suspendidas, inunda el corredor hasta convertir la visibilidad en una abstracción. La opacidad es total, una ceguera técnica que bloquea irremisiblemente los visores ópticos de los cascos, anulando cualquier ventaja perceptiva y obligándote a depender de una telemetría incierta y de la intuición espacial ante un entorno que se ha vuelto una trampa cerrada."
+      ],
+      "titulo": "Pérdida de Orientación",
+      "opciones": [
+        {
+          "texto": "Utilizar el eco analógico del astrolabio",
+          "destino": "nodo_163"
+        },
+        {
+          "texto": "Detener la columna y esperar el pulso",
+          "destino": "nodo_141"
+        }
+      ]
+    },
+    "nodo_143": {
+      "titulo": "La Ración Salina",
+      "texto": [
+        "La mezcla resultante es una amalgama viscosa, una combinación rudimentaria de musgo hidropónico y depósitos de salitre puro recolectados de las paredes húmedas. Al aplicar calor, el compuesto desprende un vapor de densidad opresiva que satura el aire con el rastro pungente y amoniacal de la degradación biológica y la acumulación mineral; un sustento crudo que desafía cualquier reticencia fisiológica ante la necesidad ineludible de recuperar los electrolitos perdidos."
+      ],
+      "opciones": [
+        {
+          "texto": "Distribuir los cuencos entre los refugiados",
+          "destino": "nodo_184"
+        },
+        {
+          "texto": "Consumir la pasta arcillosa para evitar el desgaste",
+          "destino": "nodo_53"
+        }
+      ]
+    },
+    "nodo_144": {
+      "titulo": "Racionamiento Estricto",
+      "texto": [
+        "La inanición no es solo una carencia física, es un agente corrosivo que desmantela la voluntad. El hambre severa ha comenzado a diezmar la estabilidad emocional de los civiles, y el llanto crónico de los niños no es ya un simple sonido ambiental, sino un vector de desestabilización que perfora la disciplina del grupo, amenazando con fracturar la cohesión necesaria para continuar la marcha a través de este entorno implacable."
+      ],
+      "opciones": [
+        {
+          "texto": "Ceder ante la presión y encender fuegos",
+          "destino": "nodo_149"
+        },
+        {
+          "texto": "Mantener la disciplina de racionamiento",
+          "destino": "nodo_54"
+        }
+      ]
+    },
+    "nodo_145": {
+      "titulo": "Recuperación en el Abismo",
+      "texto": [
+        "Dastael desciende con una gravedad controlada hacia el foso que marca la placa tectónica de Azrriamoh. Cada uno de sus pasos, ejecutado con botas reforzadas, emite un chasquido rítmico al hundirse en la viscosidad negra que recubre el suelo del abismo; una sustancia que parece reaccionar a la presión con una inercia mecánica, envolviendo sus extremidades mientras se adentra en la penumbra cargada de estática."
+      ],
+      "opciones": [
+        {
+          "texto": "Guiar sus movimientos con órdenes técnicas",
+          "destino": "nodo_100"
+        },
+        {
+          "texto": "Dejar que aplique pura fuerza bruta",
+          "destino": "nodo_38"
+        }
+      ]
+    },
+    "nodo_146": {
+      "titulo": "Pérdida de Suministros",
+      "texto": [
+        "El abandono del carro es una sentencia logística. Al dejar atrás las provisiones, el cálculo proyectado de las reservas calóricas se desploma, reduciendo drásticamente la viabilidad de supervivencia para el margen de las próximas tres semanas. La escasez ahora no es una amenaza latente, sino un vacío inminente que condiciona cada decisión, transformando la marcha en una carrera frenética contra la atrofia metabólica y el colapso absoluto del grupo."
+      ],
+      "opciones": [
+        {
+          "texto": "Forzar una marcha veloz hacia el Cristal",
+          "destino": "nodo_116"
+        },
+        {
+          "texto": "Buscar musgo en las juntas de expansión",
+          "destino": "nodo_141"
+        }
+      ]
+    },
+    "nodo_147": {
+      "titulo": "Filtrado de Señales Analógicas",
+      "texto": [
+        "El astrolabio vibra en tu mano, emitiendo una serie de zumbidos de baja frecuencia mientras traza arcos precisos en el aire estancado. La triangulación es inequívoca: existe una anomalía electromagnética tras el muro de escombros, un taller de manufactura Kaftak que permanece en la sombra, oculto tras la mampostería colapsada y un laberinto de detritos metálicos que han aislado la señal durante ciclos incalculables."
+      ],
+      "opciones": [
+        {
+          "texto": "Desviar al grupo hacia el taller",
+          "destino": "nodo_91"
+        },
+        {
+          "texto": "Ignorar la señal y mantener la ruta norte",
+          "destino": "nodo_172"
+        }
+      ]
+    },
+    "nodo_148": {
+      "titulo": "Formación Compacta",
+      "texto": [
+        "La proximidad biológica de los cuerpos es el único dique contra el frío termodinámico que emana de las paredes metálicas, una estrategia necesaria que, sin embargo, acarrea un coste sistémico. El contacto estrecho facilita la rápida transmisión de la jaqueca refleja, una dolencia neurológica inducida por el campo magnético del área, que comienza a propagarse como una onda de fatiga mental a través de los miembros del bloque."
+      ],
+      "opciones": [
+        {
+          "texto": "Dispersar la fila de inmediato",
+          "destino": "nodo_98"
+        },
+        {
+          "texto": "Mantener el bloque hasta cruzar el puente",
+          "destino": "nodo_87"
+        }
+      ]
+    },
+    "nodo_149": {
+      "titulo": "La Hoguera de Hidrocarburo",
+      "texto": [
+        "La briqueta ignora la lógica de la prudencia y prende con una llama de un violáceo antinatural, proyectando sombras largas y distorsionadas contra los pilares. Es un error táctico de consecuencias inmediatas: el humo denso y negruzco se eleva hacia las cúpulas superiores, delatando vuestra firma térmica de manera flagrante ante cualquier observador o sistema de vigilancia activo en el Techo."
+      ],
+      "opciones": [
+        {
+          "texto": "Apagar el fuego con barro húmedo",
+          "destino": "nodo_152"
+        },
+        {
+          "texto": "Soportar la intoxicación por calor",
+          "destino": "nodo_195"
+        }
+      ]
+    },
+    "nodo_150": {
+      "titulo": "Infección Respiratoria Criogénica",
+      "texto": [
+        "El aire en este sector se ha vuelto un agente corrosivo de partículas sólidas; una atmósfera gélida que, al ser inhalada, cristaliza instantáneamente la humedad latente en los alvéolos pulmonares de los desahuciados. El sonido de los estertores es seco, metálico, interrumpido únicamente por el colapso de cuerpos que se rinden ante la asfixia interna. Hay bajas confirmadas: la vida, reducida a una ecuación de termodinámica, se extingue en un silencio blanco."
+      ],
+      "opciones": [
+        {
+          "texto": "Solicitar la intervención empática de Lein",
+          "destino": "nodo_11"
+        },
+        {
+          "texto": "Refugiar a los supervivientes en los conductos",
+          "destino": "nodo_63"
+        }
+      ]
+    },
+    "nodo_151": {
+      "titulo": "Emboscada Balística Preparada",
+      "texto": [
+        "Bashole ajusta sus ópticos con precisión clínica, el leve zumbido de sus servos internos delatando su tensión contenida. Ante la mirada de su visor táctico, figuras asimétricas, desprovistas de geometría orgánica, emergen de la niebla estancada que se adhiere al suelo como una mortaja. El enemigo no respira; simplemente ocupa el espacio con una determinación letal, obligando a reajustar los cálculos de trayectoria antes del inevitable intercambio de proyectiles."
+      ],
+      "opciones": [
+        {
+          "texto": "Disparar a las juntas hidráulicas críticas",
+          "destino": "nodo_89"
+        },
+        {
+          "texto": "Esperar a que entren en el radio del mandoble",
+          "destino": "nodo_176"
+        }
+      ]
+    },
+    "nodo_152": {
+      "titulo": "Sofocación del Foco",
+      "texto": [
+        "La sofocación del fuego es un acto de privación sensorial radical. Apagas las llamas bajo una capa de ceniza y vacío, permitiendo que la oscuridad gélida retorne para reclamar su dominio absoluto sobre el habitáculo. Sin embargo, el esfuerzo fue inútil: la firma térmica que desprendió el foco durante su breve existencia ya ha sido registrada por los sensores del entorno, marcando vuestra posición con una inevitabilidad matemática."
+      ],
+      "opciones": [
+        {
+          "texto": "Preparar la defensa ante arremetidas",
+          "destino": "nodo_155"
+        },
+        {
+          "texto": "Iniciar una huida desesperada por la falla",
+          "destino": "nodo_178"
+        }
+      ]
+    },
+    "nodo_153": {
+      "titulo": "Sincronía Médica Exitosa",
+      "texto": [
+        "La intervención ha sido un triunfo de la ingeniería sobre la biología frágil. Los tendones, ahora reforzados con filamentos de fibra sintética de alta resistencia, se anclan al tejido remanente con una rigidez calculada. Dastael, una vez ensamblado bajo protocolos de urgencia, vuelve a estar operativo; su anatomía, aunque profanada por injertos inorgánicos, recupera una funcionalidad letal y mecánica."
+      ],
+      "opciones": [
+        {
+          "texto": "Asignarle el liderazgo del puente",
+          "destino": "nodo_156"
+        },
+        {
+          "texto": "Revisar los planos de las tierras medias",
+          "destino": "nodo_58"
+        }
+      ]
+    },
+    "nodo_154": {
+      "titulo": "Error Quirúrgico Reflejo",
+      "texto": [
+        "El agotamiento ha superado la capacidad de Lein para mantener la estabilidad cinemática. Un espasmo involuntario, un temblor casi imperceptible en sus dedos, se traduce en una sutura defectuosa que compromete la articulación. La rodilla de Dastael queda parcialmente trabada en un ángulo contra natura, condenando su movilidad a un ciclo de fricción metálica y dolor constante con cada desplazamiento."
+      ],
+      "opciones": [
+        {
+          "texto": "Utilizar soportes de hierro de cimiento",
+          "destino": "nodo_78"
+        },
+        {
+          "texto": "Avanzar a pesar de la inestabilidad",
+          "destino": "nodo_38"
+        }
+      ]
+    },
+    "nodo_155": {
+      "titulo": "Defensa Estática del Puente",
+      "texto": [
+        "Dastael se planta sobre la estructura, su presencia convirtiéndose en el eje gravitacional sobre el cual pivota el destino de los refugiados. Ante la inminencia de la incursión enemiga, él es la barrera final, un ancla de carne y metal que niega el paso a la aniquilación, asumiendo el peso total de una responsabilidad que apenas logra sostener bajo la presión del entorno hostil."
+      ],
+      "opciones": [
+        {
+          "texto": "Soportar la arremetida de los Cristalizados",
+          "destino": "nodo_176"
+        },
+        {
+          "texto": "Solicitar cobertura rápida a Bashole",
+          "destino": "nodo_89"
+        }
+      ]
+    },
+    "nodo_156": {
+      "titulo": "Vanguardia de Hierro Inquebrantable",
+      "texto": [
+        "Dastael avanza con un paso monótono, carente de cualquier atisbo de titubeo, perforando la penumbra. Sus botas metálicas trituran las placas de escoria que alfombran el camino, creando una estela de escombros fracturados mientras abre una brecha lógica a través de la desolación. Cada movimiento es una proclamación de persistencia en un mundo que ha decidido que su existencia es un error."
+      ],
+      "opciones": [
+        {
+          "texto": "Seguirlo hacia el Quinto Cristal",
+          "destino": "nodo_116"
+        },
+        {
+          "texto": "Monitorear las señales de estática del Techo",
+          "destino": "nodo_98"
+        }
+      ]
+    },
+    "nodo_157": {
+      "titulo": "Sobrecarga Sensorial de Combate",
+      "texto": [
+        "Tu sistema cognitivo se ha saturado. La mente procesa el entorno como una amalgama de variables rotas, píxeles de realidad que parpadean ante una sobrecarga de datos sensoriales ininteligibles. Estás exhausto, tu consciencia se degrada al nivel de un procesador que ha superado su umbral térmico, dejando solo el eco de una fatiga existencial paralizante."
+      ],
+      "opciones": [
+        {
+          "texto": "Consumir la última dosis de opio sintético",
+          "destino": "nodo_89"
+        },
+        {
+          "texto": "Permitir que la catatonia te reclame",
+          "destino": "nodo_22"
+        }
+      ]
+    },
+    "nodo_158": {
+      "titulo": "Retirada al Santuario Efímero",
+      "texto": [
+        "Te refugias en la penumbra donde Lein aguarda. El aire aquí está viciado, impregnado por el hedor agrio de vendajes saturados de grasa rancia y la aspereza del salitre puro. Es un santuario efímero, un respiro precario construido sobre las ruinas de la higiene y la esperanza, donde el único consuelo posible es la supervivencia inmediata al siguiente ciclo."
+      ],
+      "opciones": [
+        {
+          "texto": "Descansar bajo la lona manchada",
+          "destino": "nodo_53"
+        },
+        {
+          "texto": "Ayudar en el mantenimiento del arco óseo",
+          "destino": "nodo_131"
+        }
+      ]
+    },
+    "nodo_159": {
+      "titulo": "Escape Vertical por Alivio",
+      "texto": [
+        "Tus manos buscan asidero en las vigas de soporte, una escalada vertical que te aleja del lodo corrosivo del fondo. Cada pulgada ganada es una renuncia a la podredumbre que intenta reclamar tus extremidades. Desde esta altura, la perspectiva cambia, dejando atrás la atmósfera tóxica para intentar encontrar una ruta que no esté dictada por la erosión del nivel inferior."
+      ],
+      "opciones": [
+        {
+          "texto": "Buscar una pasarela de servicio norte",
+          "destino": "nodo_118"
+        },
+        {
+          "texto": "Vigilar los movimientos desde las alturas",
+          "destino": "nodo_69"
+        }
+      ]
+    },
+    "nodo_160": {
+      "titulo": "Maniobra Evasiva Extrema",
+      "texto": [
+        "El aire vibra con la estridencia de un campo electromagnético saturado mientras te proyectas hacia el suelo, deslizándote con una precisión quirúrgica por debajo de la mole metálica del constructo. Tus dedos, entumecidos por el frío residual, encuentran finalmente el punto de acceso expuesto: un núcleo de energía cuya geometría irradia una inestabilidad atómica palpable. Sientes el calor abrasador filtrándose a través de tus guantes tácticos, un recordatorio biológico de que cualquier micro-error en la manipulación de este reactor primario derivará en una desintegración molecular instantánea."
+      ],
+      "opciones": [
+        {
+          "texto": "Sobrecargar el núcleo manualmente",
+          "destino": "nodo_40"
+        },
+        {
+          "texto": "Huir hacia los canales de drenaje bajos",
+          "destino": "nodo_94"
+        }
+      ]
+    },
+    "nodo_161": {
+      "titulo": "Recolección de Silicio Gris",
+      "texto": [
+        "Te inclinas sobre el estrato de sedimentos metálicos, donde los fragmentos de silicio gris descansan en un lecho de escombros inertes. Al tocarlos, una estática punzante recorre tus terminaciones nerviosas, revelando la carga latente que aún albergan; son componentes de una pureza excepcional, cuya estructura granular resulta indispensable para la creación de blindajes aislantes frente a la radiación que permea este sector olvidado del complejo."
+      ],
+      "opciones": [
+        {
+          "texto": "Llevar el silicio al taller Kaftak",
+          "destino": "nodo_91"
+        },
+        {
+          "texto": "Entregarlo a Marbo para sus cálculos",
+          "destino": "nodo_27"
+        }
+      ]
+    },
+    "nodo_162": {
+      "titulo": "Informe del Frente Sur",
+      "texto": [
+        "Marbo permanece absorto, con la mirada perdida entre el parpadeo errático de las pantallas de estado mientras indexa, uno a uno, los nombres de los caídos. El reporte técnico es inequívoco y devastador: el balance energético del Sector Hundido ha entrado en un declive exponencial, tendiendo matemáticamente hacia el cero absoluto. La entropía del sistema es total; sin un flujo de energía externa, el sector se convertirá en un mausoleo hermético antes del próximo ciclo."
+      ],
+      "opciones": [
+        {
+          "texto": "Iniciar la evacuación masiva final",
+          "destino": "nodo_65"
+        },
+        {
+          "texto": "Proponer una última incursión médica",
+          "destino": "nodo_95"
+        }
+      ]
+    },
+    "nodo_163": {
+      "titulo": "El Eco Analógico Decodificado",
+      "texto": [
+        "El chasquido seco del decodificador marca el instante en que la señal, enterrada bajo capas de ruido termiónico, logra sincronizarse con la frecuencia base. Al instante, un protocolo de mantenimiento latente se despierta en las profundidades de la subestructura de Azrriamoh; el sonido de engranajes ciclópeos reajustándose resuena a través de las paredes, revelando una arquitectura oculta que los planos originales omitieron deliberadamente."
+      ],
+      "opciones": [
+        {
+          "texto": "Entrar en la cámara del Quinto Cristal",
+          "destino": "nodo_182"
+        },
+        {
+          "texto": "Buscar herramientas Kaftak en los restos",
+          "destino": "nodo_91"
+        }
+      ]
+    },
+    "nodo_164": {
+      "titulo": "Retorno al Bloque Residencial",
+      "texto": [
+        "Regresas a un campamento donde la oscuridad no es simplemente ausencia de luz, sino una presencia opresiva que asfixia cualquier atisbo de esperanza. El silencio solo es interrumpido por el siseo eléctrico de los relés, que parecen morder las sombras con descargas erráticas, buscando una conexión que hace tiempo dejó de existir en este nivel de la metrópoli. El frío se filtra por los poros del metal, recordándote la fragilidad de tu entorno."
+      ],
+      "opciones": [
+        {
+          "texto": "Buscar refugio en las tiendas militares",
+          "destino": "nodo_141"
+        },
+        {
+          "texto": "Raspar musgo hidropónico de las juntas",
+          "destino": "nodo_143"
+        }
+      ]
+    },
+    "nodo_165": {
+      "titulo": "Salida por el Cañón de Chatarra",
+      "texto": [
+        "Tu avance se vuelve un ejercicio de equilibrio precario a través del Cañón de Chatarra. A ambos lados, torres de refrigeración colapsadas se alzan como esqueletos de titanes, mientras bajo tus pies, engranajes cuyas dimensiones desafían cualquier lógica industrial yacen inamovibles. El aire está cargado de partículas metálicas suspendidas que irritan tus pulmones, obligándote a avanzar con cautela entre este cementerio de maquinaria obsoleta."
+      ],
+      "opciones": [
+        {
+          "texto": "Seguir la línea de mayor estabilidad",
+          "destino": "nodo_61"
+        },
+        {
+          "texto": "Buscar filtraciones de lubricante limpio",
+          "destino": "nodo_85"
+        }
+      ]
+    },
+    "nodo_166": {
+      "titulo": "Mantenimiento con Desechos",
+      "texto": [
+        "Con la paciencia de un artesano condenado, utilizas fragmentos de tungsteno recuperado para reparar el sistema hidráulico de tus prótesis. Cada tornillo ajustado y cada articulación limpiada de óxido devuelven una fracción de tu destreza perdida; el zumbido servomecánico vuelve a ser fluido, eliminando el doloroso agarrotamiento de los actuadores y permitiéndote recuperar la movilidad esencial para sobrevivir un ciclo más."
+      ],
+      "opciones": [
+        {
+          "texto": "Reunirte con la columna de desahuciados",
+          "destino": "nodo_48"
+        },
+        {
+          "texto": "Explorar el túnel inferior de drenaje",
+          "destino": "nodo_94"
+        }
+      ]
+    },
+    "nodo_167": {
+      "titulo": "Encuentro en las Alturas",
+      "texto": [
+        "Bashole permanece de pie, inmóvil como una gárgola de acero, con el arco tensado y la mirada fija en el vacío. No hay palabras entre vosotros; la atmósfera es demasiado densa por la tensión acumulada. Al observar hacia el frente, el horizonte se revela en una curva antinatural, una perspectiva distorsionada que expone la inmensidad del sector y la pequeñez de vuestra resistencia ante la inminente extinción."
+      ],
+      "opciones": [
+        {
+          "texto": "Contemplar la máscara de Antikalom",
+          "destino": "nodo_193"
+        },
+        {
+          "texto": "Asegurar las pasarelas contra intrusiones",
+          "destino": "nodo_87"
+        }
+      ]
+    },
+    "nodo_168": {
+      "titulo": "Compuertas de Filtrado Críticas",
+      "texto": [
+        "El estruendo de los sellos industriales reventando presagia una catástrofe hidráulica. Sin previo aviso, el desecho acumulado durante eones en los niveles superiores se precipita en cascadas viscosas, inundando los conductos principales con una mezcla corrosiva que amenaza con erosionar las estructuras de soporte. El caos se hace absoluto y el tiempo para contener la ruptura es apenas una fracción de segundo antes de que el sector quede anegado bajo el lodo de la metrópoli."
+      ],
+      "opciones": [
+        {
+          "texto": "Sellar los conductos con resina epoxi",
+          "destino": "nodo_15"
+        },
+        {
+          "texto": "Desviar el flujo hídrico hacia los desagües",
+          "destino": "nodo_117"
+        }
+      ]
+    },
+    "nodo_169": {
+      "titulo": "Recuperación Biológica Finitas",
+      "texto": [
+        "Consumes el agua filtrada con desesperación, sintiendo cómo el líquido vital recorre tus tejidos y estabiliza, con una eficiencia casi mecánica, tus sinapsis sobrecargadas. La migraña punzante que nublaba tu juicio comienza a retroceder, permitiendo que la claridad regrese a tu mente; es una tregua biológica breve, un breve respiro antes de tener que enfrentarte nuevamente al colapso inminente de vuestra realidad."
+      ],
+      "opciones": [
+        {
+          "texto": "Reincorporarte a la vanguardia defensiva",
+          "destino": "nodo_97"
+        },
+        {
+          "texto": "Ayudar a Marbo a trazar curvas térmicas",
+          "destino": "nodo_27"
+        }
+      ]
+    },
+    "nodo_170": {
+      "titulo": "Suministro de Saneamiento",
+      "texto": [
+        "El agua, extraída de la condensación febril de las tuberías oxidadas, fluye como un bálsamo necesario hacia el hospital de campaña. Cada gota que entregas actúa sobre los tejidos consumidos por el agotamiento, mitigando la severa deshidratación celular que amenaza con precipitar el fallo multiorgánico de los supervivientes. El líquido, levemente metálico al tacto, se convierte en la única barrera real contra el colapso metabólico del grupo."
+      ],
+      "opciones": [
+        {
+          "texto": "Colaborar con Lein en el triaje del fango",
+          "destino": "nodo_2"
+        },
+        {
+          "texto": "Organizar el racionamiento calórico",
+          "destino": "nodo_144"
+        }
+      ]
+    },
+    "nodo_171": {
+      "titulo": "Tratamiento de Quemaduras Químicas",
+      "texto": [
+        "Lein extiende una fina capa de polímeros viscosos sobre las llagas abiertas, una sustancia sintética diseñada para sellar la epidermis frente a la atmósfera corrosiva. A medida que sus dedos, entrenados pero temblorosos, trabajan con precisión quirúrgica sobre la carne irritada, una descarga de empatía somática te recorre; el eco de su propio dolor reflejo se manifiesta en un escalofrío eléctrico, una transferencia psíquica de la tortura que ella intenta mitigar en ti."
+      ],
+      "opciones": [
+        {
+          "texto": "Mantener la calma y agradecer el soporte",
+          "destino": "nodo_11"
+        },
+        {
+          "texto": "Alejarte para evitar causarle más trauma",
+          "destino": "nodo_12"
+        }
+      ]
+    },
+    "nodo_172": {
+      "titulo": "Avance Bajo Dolor",
+      "texto": [
+        "La toxicidad residual se ha filtrado profundamente en tu torrente sanguíneo, orquestando una lenta transmutación orgánica. La infección por metales pesados reclama su tributo, convirtiendo la flexibilidad de tus articulaciones en una rigidez aséptica. Sientes cómo tus extremidades adquieren la inercia gélida y la densidad del acero; cada paso es una negociación agónica contra la arquitectura de tu propio cuerpo que se resiste a la movilidad."
+      ],
+      "opciones": [
+        {
+          "texto": "Forzar el paso hacia el Quinto Cristal",
+          "destino": "nodo_116"
+        },
+        {
+          "texto": "Establecer un alto definitivo en la marcha",
+          "destino": "nodo_141"
+        }
+      ]
+    },
+    "nodo_173": {
+      "titulo": "Cruce Quirúrgico del Puente",
+      "texto": [
+        "El tránsito es un ejercicio de precisión geométrica y frialdad calculada. Los civiles avanzan en una procesión unidireccional, conteniendo el aliento para no añadir vibraciones fatales a la estructura. Bajo sus pies, las placas metálicas, corroídas por décadas de fatiga de materiales y exposición al vacío, gimen ante cada pisada, amenazando con ceder y precipitar todo lo que sostienen hacia el abismo insondable que bosteza debajo."
+      ],
+      "opciones": [
+        {
+          "texto": "Alcanzar el confín de las regiones medias",
+          "destino": "nodo_178"
+        },
+        {
+          "texto": "Montar un puesto de control en el extremo norte",
+          "destino": "nodo_76"
+        }
+      ]
+    },
+    "nodo_174": {
+      "titulo": "Colapso del Paso Estrecho",
+      "texto": [
+        "Un desequilibrio en la carga genera una torsión asimétrica insoportable para los ejes de carga. Los pernos, que han superado con creces su vida útil, se disparan como proyectiles cuando el metal alcanza su punto de fractura por fatiga. En un instante de horror cinético, el soporte cede; el estrépito del acero retorciéndose acompaña la caída de dos carretas, cuyos pasajeros desaparecen en la negrura absoluta del abismo sin emitir sonido alguno."
+      ],
+      "opciones": [
+        {
+          "texto": "Salvar a los civiles rezagados",
+          "destino": "nodo_120"
+        },
+        {
+          "texto": "Retroceder hacia el bloque de contención",
+          "destino": "nodo_121"
+        }
+      ]
+    },
+    "nodo_175": {
+      "titulo": "Retirada Ante el Gigante del Ruido",
+      "texto": [
+        "El constructo, una mole de pistones hidráulicos y placas remachadas, desarticula la barricada con un gesto de desdén mecánico. La estructura colapsa bajo su peso, enviando metralla en todas direcciones. Desesperado, te lanzas a través de los cañones de chatarra, un laberinto de desechos industriales donde el eco del gigante te persigue como un trueno persistente y distorsionado."
+      ],
+      "opciones": [
+        {
+          "texto": "Refugiarte en el taller Kaftak abandonado",
+          "destino": "nodo_91"
+        },
+        {
+          "texto": "Guiar al monstruo hacia una tubería caliente",
+          "destino": "nodo_93"
+        }
+      ]
+    },
+    "nodo_176": {
+      "titulo": "Choque de Titanes",
+      "texto": [
+        "El mandoble de Dastael desciende con la fuerza de un meteorito, impactando directamente contra el chasis reforzado del constructo. El contacto genera una colisión de energías cinéticas que desestabiliza el entorno, liberando una descarga de estática gris que ioniza el aire y ciega temporalmente los sensores ópticos de cualquier observador. La vibración del choque resuena en las estructuras circundantes, testificando el nivel de violencia ejercido por el arma contra la coraza enemiga."
+      ],
+      "opciones": [
+        {
+          "texto": "Aprovechar el impacto para destruir su núcleo",
+          "destino": "nodo_40"
+        },
+        {
+          "texto": "Cubrir la retirada de la columna de civiles",
+          "destino": "nodo_173"
+        }
+      ]
+    },
+    "nodo_177": {
+      "titulo": "Fuego de Cohesión Mecánica",
+      "texto": [
+        "Las flechas disparadas por Bashole no son meros proyectiles de caza, sino dispositivos de anclaje que se despliegan en el aire. Al impactar, forman una red tensa de vectores que atrapa y sujeta a la vanguardia enemiga, restringiendo su capacidad de maniobra y convirtiendo sus motores de propulsión en blancos estáticos e inútiles bajo la tensión de los cables de acero que los inmovilizan contra el pavimento industrial."
+      ],
+      "opciones": [
+        {
+          "texto": "Avanzar firmemente hacia el Quinto Cristal",
+          "destino": "nodo_116"
+        },
+        {
+          "texto": "Inspeccionar las marcas de ensamblaje en el suelo",
+          "destino": "nodo_122"
+        }
+      ]
+    },
+    "nodo_178": {
+      "titulo": "El Confín de las Regiones Medias",
+      "texto": [
+        "Finalmente, alcanzas la demarcación que separa los estratos inferiores de la estructura superior. El ambiente cambia drásticamente: un pulso de aire purificado recorre el pasillo, un torrente supersónico que arrastra consigo el olor a ozono y el estancamiento de los niveles inferiores. La ventilación de alta eficiencia limpia tus pulmones, pero el aire frío te recuerda que has dejado atrás la seguridad precaria de la base para enfrentarte a la hostilidad de lo desconocido."
+      ],
+      "opciones": [
+        {
+          "texto": "Afrontar la auditoría de Antikalom",
+          "destino": "nodo_193"
+        },
+        {
+          "texto": "Buscar la interfaz de control del Cristal",
+          "destino": "nodo_182"
+        }
+      ]
+    },
+    "nodo_179": {
+      "titulo": "Segundo Disparo Improvisado",
+      "texto": [
+        "Ajustas tu postura, ignorando el temblor en tus manos, y calculas la parábola con una frialdad matemática. El arco responde a tu tensión muscular. Al soltar la cuerda, la flecha viaja con una precisión letal, incrustándose exactamente en la junta neumática del Cristalizado; el impacto rompe el sello hermético y provoca una fuga de presión que paraliza instantáneamente al adversario, deteniendo su avance en seco."
+      ],
+      "opciones": [
+        {
+          "texto": "Avanzar victorioso hacia el puente",
+          "destino": "nodo_87"
+        },
+        {
+          "texto": "Devolver el arco a Bashole estabilizado",
+          "destino": "nodo_131"
+        }
+      ]
+    },
+    "nodo_180": {
+      "titulo": "Línea Defensiva de Veteranos",
+      "texto": [
+        "Los veteranos se han convertido en una extensión inerte de la arquitectura que custodian. Sus escudos, otrora emblemas de pulcro acero, presentan ahora una erosión laminar provocada por el constante bombardeo de partículas abrasivas y la fatiga estructural del combate prolongado. Cada impacto es un lamento sordo, un desgaste que no solo afecta al metal, sino a la psique de quienes resisten; el cansancio se manifiesta en la precisión decreciente de sus disparos y en la asfixiante monotonía de un frente que parece consumir sus vidas segundo a segundo, sin promesas de victoria ni relevo."
+      ],
+      "opciones": [
+        {
+          "texto": "Ordenar un repliegue ordenado hacia el cuartel",
+          "destino": "nodo_32"
+        },
+        {
+          "texto": "Forzar una carga ofensiva con Dastael",
+          "destino": "nodo_35"
+        }
+      ]
+    },
+    "nodo_181": {
+      "titulo": "Reparación Avanzada con Tungsteno",
+      "texto": [
+        "Tus dedos se mueven con una precisión quirúrgica sobre la anatomía sintética de Dastael, utilizando las herramientas Kaftak. El frío metálico del instrumental contrasta con la urgencia del momento mientras fusionas las aleaciones de memoria con la hombrera maltrecha. El tungsteno, una vez fundido, se adhiere a la estructura con una tenacidad molecular casi perfecta, devolviendo a la armadura una integridad que parecía perdida ante la brutalidad del entorno. Es un acto de reconstrucción técnica que ignora la fragilidad de la carne subyacente, priorizando la durabilidad de la cáscara mecánica."
+      ],
+      "opciones": [
+        {
+          "texto": "Enviar a Dastael a liderar la evacuación masiva",
+          "destino": "nodo_156"
+        },
+        {
+          "texto": "Guardar el resto de componentes de precisión",
+          "destino": "nodo_182"
+        }
+      ]
+    },
+    "nodo_182": {
+      "titulo": "La Interfaz del Quinto Cristal",
+      "texto": [
+        "Te plantas ante el monolito, una reliquia de tecnología arcana cuya superficie trasciende la comprensión geométrica contemporánea. El artefacto vibra con una frecuencia que altera los sentidos; crepita con ecuaciones de luz ácida que se proyectan sobre el aire estancado, fracturando la percepción visual. La información que emana no es lenguaje, sino una tormenta de datos puros y hostiles, un eco de una era donde la materia se sometía a la voluntad pura. Estás ante el umbral de una interfaz cuyo código original ha sido corrompido por milenios de entropía."
+      ],
+      "opciones": [
+        {
+          "texto": "Insertar los componentes Kaftak para activar la purificación",
+          "destino": "nodo_199"
+        },
+        {
+          "texto": "Tratar de hackear el sistema mediante el astrolabio",
+          "destino": "nodo_200"
+        }
+      ]
+    },
+    "nodo_183": {
+      "titulo": "La Geometría Expuesta",
+      "texto": [
+        "Un vacío súbito desgarra la cortina de vapor, permitiendo que la atmósfera cargada se disipe. La revelación es un horror matemático: el horizonte no es una línea, sino una curva que se proyecta hacia el cenit con una inclinación antinatural. Ante ti, la vasija de hierro surge como una colosal efigie del determinismo, una estructura masiva diseñada para encerrar el flujo del tiempo. La visión es una afrenta a la perspectiva humana; el peso de su existencia confirma la pequeñez de cualquier esfuerzo individual frente a una arquitectura de control planetario."
+      ],
+      "opciones": [
+        {
+          "texto": "Ceder ante la parálisis de la Espiritualidad Gris",
+          "destino": "nodo_184"
+        },
+        {
+          "texto": "Rebelarte contra la estadística de mortalidad",
+          "destino": "nodo_195"
+        }
+      ]
+    },
+    "nodo_184": {
+      "titulo": "La Apatía Colectiva",
+      "texto": [
+        "El desánimo se propaga como un agente patógeno. Los refugiados, al comprender la escala de la caja hermética y la futilidad de su trayecto, dejan caer sus hatillos con una sincronía desoladora. No hay gritos ni resistencia, solo una rendición silenciosa que emana de un espíritu quebrantado por la estadística. La comprensión del vacío existencial disuelve cualquier rastro de voluntad, convirtiendo a la muchedumbre en una masa inerte de seres que han aceptado, con una pasividad gélida, que el sistema no está diseñado para albergar su supervivencia."
+      ],
+      "opciones": [
+        {
+          "texto": "Forzar una marcha violenta mediante el desafío",
+          "destino": "nodo_195"
+        },
+        {
+          "texto": "Aceptar la entropía del sistema",
+          "destino": "final_apatia"
+        }
+      ]
+    },
+    "nodo_185": {
+      "titulo": "Punto de Encuentro en la Grieta",
+      "texto": [
+        "La columna se reagrupa bajo el Techo, donde el parpadeo errático de las lámparas de emergencia crea un estroboscopio nauseabundo. El aire aquí es denso, cargado con un zumbido electromagnético que delata el fallo en los núcleos de energía. Las líneas de interferencia se intensifican, tiñendo el ambiente de sombras que parecen moverse con independencia de la luz, mientras el contingente busca un amparo que el entorno, intrínsecamente hostil, se niega a proveer."
+      ],
+      "opciones": [
+        {
+          "texto": "Encender las hogueras de briquetas",
+          "destino": "nodo_149"
+        },
+        {
+          "texto": "Avanzar a oscuras hacia el confín medio",
+          "destino": "nodo_178"
+        }
+      ]
+    },
+    "nodo_186": {
+      "titulo": "Almacén Secundario de Herramientas",
+      "texto": [
+        "El habitáculo es un osario de suministros olvidados. Entre el polvo sedimentado por años de abandono, localizas resina epoxi de alta resistencia, un polímero de curado rápido capaz de sellar fracturas bajo presiones extremas. Junto a ella, apilados sin orden, se encuentran cartuchos de filtrado barométrico, hoy inservibles, sus membranas secas y quebradizas por la falta de mantenimiento. Cada objeto aquí es un recordatorio de un protocolo logístico que colapsó hace eones, dejando atrás solo residuos de una civilización que intentaba, vanamente, contener la atmósfera."
+      ],
+      "opciones": [
+        {
+          "texto": "Llevar la resina a las compuertas rotas",
+          "destino": "nodo_15"
+        },
+        {
+          "texto": "Regresar al contingente principal de Marbo",
+          "destino": "nodo_128"
+        }
+      ]
+    },
+    "nodo_187": {
+      "titulo": "Desvalijamiento Militar",
+      "texto": [
+        "En el corazón del puesto de vigilancia, entre restos de equipo que huelen a ozono y sangre seca, recuperas tres cargadores magnéticos. El peso del metal en tus manos es una promesa de eficacia balística. Junto a ellos, rescatas una linterna de cuarzo, cuya lente está opacada por una capa gruesa de hollín orgánico. Al limpiarla, la luz que emite es débil y espectral, arrojando una claridad cenicienta que apenas logra perforar la oscuridad profunda de los canales que aguardan ser explorados."
+      ],
+      "opciones": [
+        {
+          "texto": "Usar la linterna para explorar los canales",
+          "destino": "nodo_9"
+        },
+        {
+          "texto": "Entregar los cartuchos a la línea de veteranos",
+          "destino": "nodo_180"
+        }
+      ]
+    },
+    "nodo_188": {
+      "titulo": "Respeto a los Caídos",
+      "texto": [
+        "Tus pasos resuenan sobre la estructura metálica, un eco que se pierde en la inmensidad del complejo. La pátina de suciedad que recubre tu torso no es mera mugre; bajo la luz tenue, revela una iridiscencia tóxica, el residuo de los químicos que permean este lugar. Es un testimonio visual de tu exposición al entorno, una marca que se adhiere a tu piel y armadura con la persistencia de una maldición química, mientras avanzas entre los espectros de aquellos que no pudieron llegar tan lejos como tú."
+      ],
+      "opciones": [
+        {
+          "texto": "Buscar refugio en el búnker residencial",
+          "destino": "nodo_56"
+        },
+        {
+          "texto": "Seguir la ruta de las vigas suspendidas",
+          "destino": "nodo_118"
+        }
+      ]
+    },
+    "nodo_189": {
+      "titulo": "Reserva de Latón Asegurada",
+      "texto": [
+        "El opio sintético brilla con un tono ámbar casi artificial, sellado en viales de latón que conservan una pureza perturbadora. En este escenario de desolación y colapso nervioso, este compuesto no es una droga, sino un activo estratégico de vital importancia. Su uso es la única barrera real frente al Síndrome del Temblor, esa degeneración motora y psíquica que desmantela a los individuos desde su sistema nervioso central, transformando a soldados capaces en guiñapos temblorosos en cuestión de horas."
+      ],
+      "opciones": [
+        {
+          "texto": "Suministrar la dosis a Bashole",
+          "destino": "nodo_89"
+        },
+        {
+          "texto": "Conservarla para calmar las migrañas de Marbo",
+          "destino": "nodo_54"
+        }
+      ]
+    },
+    "nodo_190": {
+      "titulo": "Alivio Personal Neural",
+      "texto": [
+        "El fluido viscoso desciende por tu garganta con la aspereza del cobre oxidado; un compuesto sintético diseñado para la sedación sistemática. Al contacto con tus receptores, el amargor inunda tus papilas, silenciando el estrépito eléctrico que martilleaba tu sien con la cadencia de una prensa hidráulica. No obstante, este alivio conlleva una degradación cognitiva inmediata: la sinapsis se ralentiza, la agudeza táctica se empaña y las variables de combate se vuelven difusas, constriñendo drásticamente tu capacidad de maniobra en un entorno donde el margen de error tiende a cero."
+      ],
+      "opciones": [
+        {
+          "texto": "Volver a coordinar la marcha de desahuciados",
+          "destino": "nodo_98"
+        },
+        {
+          "texto": "Guiar a Dastael en el foso de la placa",
+          "destino": "nodo_145"
+        }
+      ]
+    },
+    "nodo_191": {
+      "titulo": "Rastreo de Sensores",
+      "texto": [
+        "El aire en este sector se ha vuelto denso, cargado de una estática ozónica que eriza el vello de tu nuca. Observas cómo filamentos de luz ácida, similares a nervios expuestos de la realidad, se suspenden en el vacío, rastreando patrones biológicos con precisión quirúrgica. La auditoría sistémica se ha activado; el entorno mismo ha comenzado a escanear tu estructura molecular, buscando cualquier anomalía o traza de insubordinación que justifique tu inmediata supresión."
+      ],
+      "opciones": [
+        {
+          "texto": "Desplegar el astrolabio para interferir",
+          "destino": "nodo_147"
+        },
+        {
+          "texto": "Enfrentar directamente la proyección",
+          "destino": "nodo_193"
+        }
+      ]
+    },
+    "nodo_192": {
+      "titulo": "Reincorporación al Éxodo General",
+      "texto": [
+        "Te integras en la masa inerte, ese caminar monótono de los autómatas de carne cuyos ojos, carentes de voluntad, reflejan solo el vacío de la obediencia perpetua. La atmósfera se impregna de un olor penetrante a hierro descompuesto y aceite quemado; el aliento de Tairra es un gas industrial que corroe los pulmones. Avanzas acompasado con el resto, sintiendo cómo tu individualidad se disuelve en el rítmico arrastrar de pies sobre el pavimento gélido."
+      ],
+      "opciones": [
+        {
+          "texto": "Contemplar la curvatura invertida",
+          "destino": "nodo_183"
+        },
+        {
+          "texto": "Mantener el paso firme hacia el Cristal",
+          "destino": "nodo_116"
+        }
+      ]
+    },
+    "nodo_193": {
+      "titulo": "La Máscara de Antikalom",
+      "texto": [
+        "En el cenit del Techo, las leyes de la geometría convencional se colapsan para dar paso a una silueta colosal forjada en obsidiana líquida. Antikalom se manifiesta, una presencia que no necesita volumen físico para aplastar el espíritu. Ante tu mirada, una cascada de ecuaciones luminosas, cálculos de probabilidad que determinan tu inanidad existencial, se proyectan directamente sobre tus retinas, grabándose con fuego frío en tu córnea mientras el sistema computa tu finitud."
+      ],
+      "opciones": [
+        {
+          "texto": "Desafiar al Administrador con tu arma en alto",
+          "destino": "nodo_195"
+        },
+        {
+          "texto": "Aceptar los decimales de tu mortalidad",
+          "destino": "final_auditoria"
+        }
+      ]
+    },
+    "nodo_194": {
+      "titulo": "Formación de Escudos Cerrada",
+      "texto": [
+        "Los escudos de aleación se entrelazan formando un muro cóncavo, una barricada de hierro que gime bajo el impacto constante de un viento supersónico cargado de partículas abrasivas. Sin embargo, el problema real es interno: la presión barométrica de Tairra ha comenzado a fluctuar con una violencia tectónica, ejerciendo una fuerza invisible que oprime tu caja torácica, dificultando la respiración y forzando a tu cuerpo a luchar contra el entorno mismo para no colapsar desde adentro."
+      ],
+      "opciones": [
+        {
+          "texto": "Forzar la apertura de la cámara del Cristal",
+          "destino": "nodo_182"
+        },
+        {
+          "texto": "Retroceder hacia el taller Kaftak",
+          "destino": "nodo_91"
+        }
+      ]
+    },
+    "nodo_195": {
+      "titulo": "Vandálico Biológico",
+      "texto": [
+        "La chispa de la disidencia ha prendido; tu negativa a perecer según el guion establecido transforma tu parálisis en una fuerza motriz indómita. Ya no eres un simple engranaje de la maquinaria, sino una impureza que el sistema no puede digerir. Cada paso que das resuena con la potencia de un error crítico, una anomalía cinética que desafía la previsibilidad estadística de la red, fracturando la lógica fría que antaño controlaba cada uno de tus impulsos."
+      ],
+      "opciones": [
+        {
+          "texto": "Activar el disyuntor antiguo del Quinto Cristal",
+          "destino": "nodo_199"
+        },
+        {
+          "texto": "Hackear el saldo de entropía de Tairra",
+          "destino": "nodo_200"
+        }
+      ]
+    },
+    "nodo_196": {
+      "titulo": "Velocidad Crítica de Evacuación",
+      "texto": [
+        "La columna de supervivientes se precipita sobre el pavimento metálico con una urgencia febril. A tu alrededor, la arquitectura de la ciudad emite un alarido metálico; los engranajes se han desacoplado y giran ahora de forma errática, desatando una sinfonía de destrucción mecánica que hace temblar los cimientos de este sector. Cada metro ganado es una carrera contra el colapso total de la infraestructura que sostiene vuestra última esperanza."
+      ],
+      "opciones": [
+        {
+          "texto": "Cruzar las puertas de la cámara del Cristal",
+          "destino": "nodo_182"
+        },
+        {
+          "texto": "Sellar las compuertas de retaguardia",
+          "destino": "nodo_168"
+        }
+      ]
+    },
+    "nodo_197": {
+      "titulo": "El Corazón del Pantano Central",
+      "texto": [
+        "Aquí, donde la industria de Tairra vierte sus desperdicios, el lodo compuesto por hidrocarburos volátiles burbujea con una viscosidad tóxica. De las profundidades de esta ciénaga sintética emergen los Cristalizados, sus cuerpos fracturados brillando con una luz espectral mientras cargan en masa contra vuestra posición. No hay espacio para la duda; el hedor a muerte química y la agresividad mecánica de los enemigos dictan que la contención debe ser absoluta."
+      ],
+      "opciones": [
+        {
+          "texto": "Ordenar la defensa estática con Dastael",
+          "destino": "nodo_155"
+        },
+        {
+          "texto": "Usar los disparos rápidos de Bashole",
+          "destino": "nodo_177"
+        }
+      ]
+    },
+    "nodo_198": {
+      "titulo": "Desvío por las Placas de Fundamento",
+      "texto": [
+        "Tus botas resuenan sobre el esqueleto frío de Tairra, recorriendo las placas de fundamento que sostienen la metrópolis. Al mirar hacia abajo, a través de las grietas estructurales, contemplas el abismo donde habitabas; una balsa a la deriva en un mar de datos y desidia. La escala de tu insignificancia se revela ante ti, una vastedad de metal y olvido donde tu única realidad posible es el avance hacia el núcleo."
+      ],
+      "opciones": [
+        {
+          "texto": "Buscar marcas industriales de Azrriamoh",
+          "destino": "nodo_122"
+        },
+        {
+          "texto": "Avanzar en línea recta hacia el Cristal antiguo",
+          "destino": "nodo_116"
+        }
+      ]
+    },
+    "nodo_199": {
+      "titulo": "Activación por Componentes",
+      "texto": [
+        "El Quinto Cristal, tras eones de inactividad, responde al estímulo y comienza a pulsar con una energía primigenia. La luz que emana es un bálsamo que purifica la atmósfera, neutralizando las toxinas y redirigiendo el flujo hídrico hacia los desagües principales, como si la misma ciudad estuviera siendo purgada de una infección ancestral. El equilibrio se desplaza, la presión atmosférica se estabiliza y el aire, por primera vez, deja de tener ese regusto a fin del mundo."
+      ],
+      "opciones": [
+        {
+          "texto": "Ver el banquete de calibración",
+          "destino": "final_salvacion"
+        }
+      ]
+    },
+    "nodo_200": {
+      "titulo": "Hackeo por Astrolabio",
+      "texto": [
+        "Las agujas del astrolabio, forjadas en aleaciones de memoria térmica, trazan curvas inversas de una precisión matemática asfixiante sobre el plano de coordenadas cuánticas. A medida que los engranajes giran en frecuencias inaudibles, el dispositivo comienza a reescribir sistemáticamente las variables de entropía que sostienen el sistema de Tairra, alterando el tejido mismo de la causalidad mediante una interferencia técnica que fractura la inercia del orden establecido."
+      ],
+      "opciones": [
+        {
+          "texto": "Comprobar el nuevo balance técnico",
+          "destino": "final_maestro"
+        }
+      ]
+    },
+    "final_empatia": {
+      "titulo": "El Cese por Absorción Somática",
+      "texto": [
+        "Tus sinapsis, incapaces de filtrar el torrente de datos empáticos, colapsan bajo el peso abrumador de la agonía agónica de mil vidas biológicas que se filtran a través de la red neuronal. La arquitectura somática no resiste la sobrecarga de datos sensoriales y se desintegra; tu cuerpo, antaño un recipiente de lógica, se transforma ahora en un residuo sólido, inflamado y grotesco, que se hunde lentamente sobre el lodo estéril del sector.",
+        "PUNTUACIÓN FINAL: 30 puntos de experiencia. Tu compasión superó los límites de tu arquitectura biológica."
+      ],
+      "opciones": []
+    },
+    "final_asfixia": {
+      "titulo": "La Inundación de la Memoria Caché",
+      "texto": [
+        "La presión hidrostática del silo ha superado los umbrales de integridad estructural, provocando que las compuertas reventasen en una descarga violenta de metal retorcido. Un lodo denso, una mezcla viscosa y aceitosa de lubricantes degradados y restos biológicos, surge en un torrente imparable, sepultando vuestra existencia bajo un diluvio implacable de desecho industrial que borra cualquier rastro de la actividad precedente.",
+        "PUNTUACIÓN FINAL: 0 puntos de experiencia. Fuiste un error de redondeo barrido por el mantenimiento preventivo."
+      ],
+      "opciones": []
+    },
+    "final_apatia": {
+      "titulo": "La Disolución Estática",
+      "texto": [
+        "El esfuerzo por trascender se apaga ante la inmensidad del vacío; te sientas a esperar el desenlace bajo la cúpula artificial que se curva sobre el horizonte. La Espiritualidad Gris, una forma de nada autoconsciente, recorre tus circuitos y borra de manera definitiva tus últimas funciones cognitivas, sumiéndote en un silencio sepulcral donde ni siquiera el recuerdo de tu identidad logra sobrevivir.",
+        "PUNTUACIÓN FINAL: 10 puntos de experiencia. Sobreviviste como una pieza inerte antes del desguace definitivo."
+      ],
+      "opciones": []
+    },
+    "final_auditoria": {
+      "titulo": "El Ajuste del Saldo Técnico",
+      "texto": [
+        "La máscara de obsidiana de Antikalom se alza ante ti, emitiendo una frecuencia de análisis que escanea y procesa tus decimales biológicos con una crueldad metódica. Para optimizar el gasto energético del ecosistema, tus constantes vitales son desconectadas mediante una señal remota, apagando tu chispa existencial en el frío balance final de una auditoría que no admite apelaciones.",
+        "PUNTUACIÓN FINAL: 45 puntos de experiencia. Tu existencia fue auditada y corregida por el Administrador del Silencio."
+      ],
+      "opciones": []
+    },
+    "final_salvacion": {
+      "titulo": "El Faro de Tecnología Antigua",
+      "texto": [
+        "El Quinto Cristal de Kaftakon, una reliquia de una era de hipertecnología olvidada, se activa emitiendo una claridad técnica cegadora que atraviesa la penumbra del entorno. La atmósfera responde a la modulación de las frecuencias cristalinas, purificándose instantáneamente y otorgando una prórroga mecánica desesperada, pero necesaria, a la Marcha de los Desahuciados, quienes ven cómo su entorno se estabiliza por un breve periodo de gracia.",
+        "PUNTUACIÓN FINAL: 90 puntos de experiencia. Lograste alterar la presión barométrica y salvar los activos orgánicos."
+      ],
+      "opciones": []
+    },
+    "final_maestro": {
+      "titulo": "El Rediseño del Código Maestro",
+      "texto": [
+        "La ejecución de tus cálculos a través del astrolabio altera las constantes de la física dictadas por los pistones de Azrriamoh, inyectando un algoritmo de ruptura en el núcleo del sistema. Te conviertes en una anomalía estadística, una variable salvaje no computable que se expande, fracturando las matemáticas implacables de Tairra desde su propia estructura interna y obligando al universo local a reconfigurarse ante tu voluntad.",
+        "PUNTUACIÓN FINAL: 100 puntos de experiencia (¡MÁXIMA!). Has reescrito las matemáticas implacables de Tairra."
+      ],
+      "opciones": []
+    }
+  }
+}
